@@ -7,6 +7,8 @@ const FALLBACK_REGION_PUBLICATION_DATE = '2025-07-03';
 const REGION_VIEWER_URL =
   'https://idt2.regione.veneto.it/idt/webgis/viewer?previewLayerId=14275';
 const OSM_BASE_URL = 'https://www.openstreetmap.org';
+const REGION_LICENSE_URL = 'https://www.dati.gov.it/iodl/2.0';
+const OSM_LICENSE_URL = 'https://www.openstreetmap.org/copyright';
 
 interface Props {
   sourceInfo: SourceInfo;
@@ -51,14 +53,16 @@ export default function SourceStatus({ sourceInfo }: Props) {
     <div className="grid gap-1.5">
       <Row
         label="Dati regionali"
-        value={`${regionalYear}, pubblicato il ${publicationDate}`}
+        value={`${regionalYear}, pubblicato il ${publicationDate}, licenza IODL 2.0`}
         href={REGION_VIEWER_URL}
       />
       <Row
         label="Dati OSM"
-        value={formatDateTime(sourceInfo.osm_source_pbf_mtime)}
+        value={`${formatDateTime(sourceInfo.osm_source_pbf_mtime)}, licenza ODbL 1.0`}
         href={osmUrl}
       />
+      <Row label="Licenza Regione Veneto" value="IODL 2.0" href={REGION_LICENSE_URL} />
+      <Row label="Licenza OpenStreetMap" value="ODbL 1.0" href={OSM_LICENSE_URL} />
     </div>
   );
 }
