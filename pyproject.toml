@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osm-import-landuse-veneto"
+version = "0.1.0"
+description = "Utilities for downloading Veneto shapefiles and converting them to OSM."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["gdal==3.8.4", "ogr2osm", "requests", "PyYAML>=6.0.2,<7", "shapely>=2,<3"]
+
+[project.optional-dependencies]
+dev = ["poethepoet>=0.26.0"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["copsuolo", "copsuolo.build", "copsuolo.translation"]
+
+[project.scripts]
+copsuolo-download = "copsuolo.download:main"
+copsuolo-convert = "copsuolo.convert:main"
+copsuolo-build = "copsuolo.build.run_all:main"
+copsuolo-build-region = "copsuolo.build.region:main"
+copsuolo-build-osm = "copsuolo.build.osm:main"
+copsuolo-build-compare = "copsuolo.build.compare:main"
+
+[tool.poe.tasks.download]
+cmd = "python -m copsuolo.download"
+help = "Download and extract province shapefile archives into data/copsuolo_2023_14275/"
+
+[tool.poe.tasks.convert-shp2osm]
+cmd = "python -m copsuolo.convert"
+help = "Recursively convert shapefiles under data/copsuolo_2023_14275/ into dist/copsuolo_2023_14275/"
+
+[tool.poe.tasks.build-region-map]
+cmd = "python -m copsuolo.build.run_all --target region"
+help = "Build region PMTiles archives for all provinces"
+
+[tool.poe.tasks.build-compare-map]
+cmd = "python -m copsuolo.build.run_all --target compare"
+help = "Build comparison PMTiles archives for all provinces"
+
+[tool.poe.tasks.build-osm-map]
+cmd = "python -m copsuolo.build.run_all --target osm"
+help = "Build OSM polygon PMTiles archives for all provinces"
+
+[tool.poe.tasks.build]
+cmd = "python -m copsuolo.build.run_all"
+help = "Build all PMTiles targets for all provinces (region → osm → compare)"
+
+[tool.poe.tasks.serve]
+cmd = "npm run dev --prefix frontend"
+help = "Start the Vite dev server for the React frontend"

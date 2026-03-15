@@ -1,0 +1,1116 @@
+map:
+  # Aree residenziali
+  - clc_lv_all: "11110"
+    description: "Centro città con uso misto tessuto urbano continuo molto denso"
+    tags:
+      landuse: residential
+      note: "Centro città"
+  - clc_lv_all: "11200"
+    description: "Tessuto urbano discontinuo"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11210"
+    description: "Tessuto urbano discontinuo denso con uso misto (Sup. Art. 50%-80%)"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11220"
+    description: "Tessuto urbano discontinuo medio, principalmente residenziale (Sup. Art. 30%-50%)"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11230"
+    description: "Tessuto urbano discontinuo rado, principalmente residenziale (Sup. Art. 10%-30%)"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11300"
+    description: "Classi di tessuto urbano speciali"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11310"
+    description: "Complessi residenziali comprensivi di area verde"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11320"
+    description: "Strutture residenziali isolate"
+    tags:
+      landuse: residential
+  - clc_lv_all: "11330"
+    description: "Ville venete"
+    tags:
+      landuse: residential
+      description: "Ville venete"
+      source:description: "Regione Veneto"
+
+  # Aree industriali e commerciali
+  - clc_lv_all: "12100"
+    description: "Aree industriali, commerciali e dei servizi pubblici e privati"
+    tags:
+      note: "Aree industriali, commerciali e dei servizi pubblici e privati verificare tipologia landuse tramite ortofoto/controllo in loco."
+  - clc_lv_all: "12110"
+    description: "Aree destinate ad attivita industriali"
+    tags:
+      landuse: industrial
+  - clc_lv_all: "12112"
+    description: "Insediamenti zootecnici"
+    tags:
+      landuse: farmyard
+  - clc_lv_all: "12120"
+    description: "Aree destinate ad attivita commerciali"
+    tags:
+      landuse: retail
+  - clc_lv_all: "12130"
+    description: "Aree destinate a servizi pubblici, militari e privati"
+    tags:
+      note: "Aree destinate a servizi pubblici, militari e privati verificare tipologia landuse tramite ortofoto/controllo in loco."
+  - clc_lv_all: "12140"
+    description: "Infrastrutture di supporto alle acque, barriere frangiflutti, dighe"
+    tags:
+      note: "Infrastrutture di supporto alle acque, barriere frangiflutti, dighe verificare tipologia landuse/man_made tramite ortofoto/controllo in loco."
+  - clc_lv_all: "12150"
+    description: "Infrastrutture tecnologiche di pubblica utilita"
+    tags:
+      landuse: industrial
+      description: "Infrastrutture tecnologiche di pubblica utilita': impianti di smaltimento rifiuti, inceneritori e di depurazione acque"
+      source:description: "Regione Veneto"
+  - clc_lv_all: "12160"
+    description: "Luoghi di culto (non cimiteri)"
+    tags:
+      landuse: religious
+  - clc_lv_all: "12170"
+    description: "Cimiteri non vegetati"
+    tags:
+      landuse: cemetery
+  - clc_lv_all: "12180"
+    description: "Strutture socio sanitarie (ospedali e case di cura)"
+    tags:
+      healthcare: "yes"
+      description: "Strutture socio sanitarie (ospedali e case di cura)"
+      source:description: "Regione Veneto"
+  - clc_lv_all: "12190"
+    description: "Scuole"
+    tags:
+      landuse: education
+  - clc_lv_all: "12210"
+    description: "Rete stradale veloce con territori associati"
+    tags:
+      note: "Eliminare questo poligono (Territorio rete stradale veloce)"
+  - clc_lv_all: "12220"
+    description: "Rete stradale secondaria con territori associati"
+    tags:
+      note: "Eliminare questo poligono (Territorio rete stradale secondario)"
+  - clc_lv_all: "12230"
+    description: "Rete stradale secondaria con territori associati (strade regionali, provinciali, comunali)"
+    tags:
+      note: "Eliminare questo poligono (Territorio rete stradale secondario)"
+  - clc_lv_all: "12240"
+    description: "Rete ferroviaria con territori associati"
+    tags:
+      landuse: railway
+  - clc_lv_all: "12260"
+    description: "Aree adibite a parcheggio"
+    tags:
+      amenity: parking
+  - clc_lv_all: "12270"
+    description: "Reti ed aree per la distribuzione idrica"
+    tags:
+      landuse: industrial
+      industrial: water
+  - clc_lv_all: "12291"
+    description: "Impianto fotovoltaico"
+    tags:
+      power: plant
+      plant:source: solar
+  - clc_lv_all: "12300"
+    description: "Aree portuali"
+    tags:
+      landuse: harbour
+  - clc_lv_all: "12400"
+    description: "Aeroporti"
+    tags:
+      aeroway: aerodrome
+  - clc_lv_all: "13100"
+    description: "Aree estrattive"
+    tags:
+      landuse: quarry
+  - clc_lv_all: "13110"
+    description: "Aree estrattive attive"
+    tags:
+      landuse: quarry
+  - clc_lv_all: "13200"
+    description: "Discariche"
+    tags:
+      landuse: landfill
+  - clc_lv_all: "13210"
+    description: "Discariche e depositi di cave"
+    tags:
+      landuse: industrial
+      description: "Discariche e depositi di cave, miniere, industrie e collettivita' pubbliche."
+      source:description: "Regione Veneto"
+  - clc_lv_all: "13300"
+    description: "Aree in costruzione"
+    tags:
+      landuse: construction
+      note: "Verificare tramite ortofoto/controllo in loco se l'area è stata completata e ritaggare di conseguenza."
+  - clc_lv_all: "13310"
+    description: "Cantieri e spazi in costruzione e scavi"
+    tags:
+      landuse: construction
+  - clc_lv_all: "13320"
+    description: "Suoli rimaneggiati e artefatti"
+    tags:
+      description: "Suoli rimaneggiati e artefatti"
+      source:description: "Regione Veneto"
+  - clc_lv_all: "13400"
+    description: "Aree in attesa di una destinazione d'uso"
+    tags:
+      landuse: wasteland
+      note: "Verificare che sia ancora senza destinazione d'uso."
+  - clc_lv_all: "13410"
+    description: "Aree abbandonate"
+    tags:
+      description: "Aree abbandonate"
+      source:description: "Regione Veneto"
+  - clc_lv_all: "13420"
+    description: "Aree in trasformazione"
+    tags:
+      description: "Aree in trasformazione"
+      source:description: "Regione Veneto"
+  - clc_lv_all: "14100"
+    description: "Aree verdi urbane"
+    tags:
+      leisure: park
+  - clc_lv_all: "14110"
+    description: "Parchi urbani"
+    tags:
+      leisure: park
+  - clc_lv_all: "14130"
+    description: "Aree incolte nell'urbano"
+    tags:
+      landuse: grass
+  - clc_lv_all: "14140"
+    description: "Aree verdi private"
+    tags:
+      leisure: garden
+  - clc_lv_all: "14150"
+    description: "Aree verdi associate alla viabilita"
+    tags:
+      landuse: grass
+  - clc_lv_all: "14200"
+    description: "Aree destinate ad attivita sportive ricreative"
+    tags:
+      leisure: sports_centre
+  - clc_lv_all: "14220"
+    description: "Aree sportive (calcio, atletica, tennis ecc.)"
+    tags:
+      leisure: sports_centre
+
+  # Coltivazioni
+  - clc_lv_all: "21100"
+    description: "Terreni arabili in aree non irrigue"
+    tags:
+      landuse: farmland
+  - clc_lv_all: "21110"
+    description: "Colture erbacee prevalentemente primaverili-estive in aree non irrigue"
+    tags:
+      landuse: farmland
+  - clc_lv_all: "21111"
+    description: "Mais in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: corn
+  - clc_lv_all: "21112"
+    description: "Soia in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: soy
+  - clc_lv_all: "21113"
+    description: "Barbabietola in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: beet
+  - clc_lv_all: "21114"
+    description: "Girasole in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: sunflower
+  - clc_lv_all: "21115"
+    description: "Tabacco in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: tobacco
+  - clc_lv_all: "21116"
+    description: "Foraggere in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: forage
+  - clc_lv_all: "21120"
+    description: "Colture erbacee prevalentemente autunno-invernali in aree non irrigue"
+    tags:
+      landuse: farmland
+  - clc_lv_all: "21121"
+    description: "Cereali in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: cereal
+  - clc_lv_all: "21130"
+    description: "Vivai in aree non irrigue"
+    tags:
+      landuse: plant_nursery
+  - clc_lv_all: "21141"
+    description: "Orticole in pieno campo in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: vegetable
+  - clc_lv_all: "21142"
+    description: "Orticole in serra o sotto plastica in aree non irrigue"
+    tags:
+      landuse: greenhouse_horticulture
+  - clc_lv_all: "21150"
+    description: "Piante industriali in aree non irrigue"
+    tags:
+      landuse: farmland
+  - clc_lv_all: "21160"
+    description: "Piante oleifere in aree non irrigue"
+    tags:
+      landuse: orchard
+      produce: oil
+  - clc_lv_all: "21170"
+    description: "Sementi in aree non irrigue"
+    tags:
+      landuse: farmland
+      crop: seeds
+  - clc_lv_all: "21180"
+    description: "Superfici a riposo in aree non irrigue"
+    tags:
+      landuse: farmland
+      fallow: "yes"
+  - clc_lv_all: "21200"
+    description: "Terreni arabili in aree irrigue"
+    tags:
+      landuse: farmland
+      irrigated: "yes"
+  - clc_lv_all: "21210"
+    description: "Colture erbacee prevalentemente primaverili-estive in aree irrigue"
+    tags:
+      landuse: farmland
+      irrigated: "yes"
+  - clc_lv_all: "21211"
+    description: "Mais in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: corn
+      irrigated: "yes"
+  - clc_lv_all: "21212"
+    description: "Soia in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: soy
+      irrigated: "yes"
+  - clc_lv_all: "21213"
+    description: "Barbabietola in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: beet
+      irrigated: "yes"
+  - clc_lv_all: "21214"
+    description: "Girasole in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: sunflower
+      irrigated: "yes"
+  - clc_lv_all: "21215"
+    description: "Tabacco in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: tobacco
+      irrigated: "yes"
+  - clc_lv_all: "21216"
+    description: "Foraggere in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: forage
+      irrigated: "yes"
+  - clc_lv_all: "21220"
+    description: "Colture erbacee prevalentemente autunno-invernali in aree irrigue"
+    tags:
+      landuse: farmland
+      irrigated: "yes"
+  - clc_lv_all: "21221"
+    description: "Cereali in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: cereal
+      irrigated: "yes"
+  - clc_lv_all: "21230"
+    description: "Vivai in aree irrigue"
+    tags:
+      landuse: plant_nursery
+      irrigated: "yes"
+  - clc_lv_all: "21241"
+    description: "Orticole in pieno campo in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: vegetable
+      irrigated: "yes"
+  - clc_lv_all: "21242"
+    description: "Orticole in serra o sotto plastica in aree irrigue"
+    tags:
+      landuse: greenhouse_horticulture
+      irrigated: "yes"
+  - clc_lv_all: "21250"
+    description: "Piante industriali in aree irrigue"
+    tags:
+      landuse: farmland
+      irrigated: "yes"
+  - clc_lv_all: "21260"
+    description: "Piante oleifere in aree irrigue"
+    tags:
+      landuse: orchard
+      produce: oil
+      irrigated: "yes"
+  - clc_lv_all: "21270"
+    description: "Sementi in aree irrigue"
+    tags:
+      landuse: farmland
+      crop: seeds
+      irrigated: "yes"
+  - clc_lv_all: "21280"
+    description: "Superfici a riposo in aree irrigue"
+    tags:
+      landuse: farmland
+      fallow: "yes"
+      irrigated: "yes"
+  - clc_lv_all: "21300"
+    description: "Risaie"
+    tags:
+      landuse: farmland
+      crop: rice
+  - clc_lv_all: "22100"
+    description: "Vigneti"
+    tags:
+      landuse: vineyard
+  - clc_lv_all: "22200"
+    description: "Frutteti"
+    tags:
+      landuse: orchard
+  - clc_lv_all: "22300"
+    description: "Oliveti"
+    tags:
+      landuse: orchard
+      trees: olive_trees
+  - clc_lv_all: "22400"
+    description: "Altre colture permanenti"
+    tags:
+      landuse: farmland
+  - clc_lv_all: "22410"
+    description: "Arboricoltura da legno"
+    tags:
+      landuse: farmland
+      produce: wood
+      landcover: trees
+  - clc_lv_all: "22420"
+    description: "Pioppeti in coltura"
+    tags:
+      landuse: farmland
+      genus: Populus
+      produce: wood
+      landcover: trees
+  - clc_lv_all: "23100"
+    description: "Superfici a copertura erbacea: graminacee non soggette a rotazione"
+    tags:
+      landuse: meadow
+      meadow: agricultural
+      note: "Se arato/seminato sostituire con landuse=farmland + crop=hay. Se abbandonato sostituire meadow=agricultural con meadow=transitional"
+  - clc_lv_all: "23200"
+    description: "Superfici a prato permanente ad inerbimento spontaneo"
+    tags:
+      landuse: grass
+  - clc_lv_all: "24100"
+    description: "Colture annuali associate a colture permanenti"
+    tags:
+      landuse: farmland
+  - clc_lv_all: "24200"
+    description: "Sistemi colturali e particellari complessi"
+    tags:
+      landuse: farmland
+      fixme: "Se possibile separare farmyard da farmland"
+
+  # Zone Boschive (Broadleaved forests)
+  - clc_lv_all: "31100"
+    description: "Bosco di latifoglie"
+    tags:
+      landuse: forest
+      leaf_type: broadleaved
+      plant_community:it: "Bosco di latifoglie"
+  - clc_lv_all: "31111"
+    description: "Aceri-frassineto con ontano bianco"
+    tags:
+      landuse: forest
+      species: "Acer pseudoplatanus; Fraxinus excelsior; Alnus incana"
+      plant_community:it: "Aceri-frassineto con ontano bianco"
+      leaf_type: broadleaved
+  - clc_lv_all: "31112"
+    description: "Aceri-frassineto con ostria"
+    tags:
+      landuse: forest
+      species: "Acer pseudoplatanus; Fraxinus excelsior; Ostrya carpinifolia"
+      plant_community:it: "Aceri-frassineto con ostria"
+      leaf_type: broadleaved
+  - clc_lv_all: "31113"
+    description: "Aceri-frassineto tipico"
+    tags:
+      landuse: forest
+      species: "Acer pseudoplatanus; Fraxinus excelsior; Fagus sylvatica"
+      plant_community:it: "Aceri-frassineto tipico"
+      leaf_type: broadleaved
+  - clc_lv_all: "31114"
+    description: "Aceri-tiglieto di versante"
+    tags:
+      landuse: forest
+      species: "Acer pseudoplatanus; Tilia platyphyllos; Tilia cordata; Ostrya carpinifolia"
+      plant_community:it: "Aceri-tiglieto di versante"
+      leaf_type: broadleaved
+  - clc_lv_all: "31115"
+    description: "Aceri-tiglieto tipico"
+    tags:
+      landuse: forest
+      species: "Acer pseudoplatanus; Tilia cordata"
+      plant_community:it: "Aceri-tiglieto tipico"
+      leaf_type: broadleaved
+  - clc_lv_all: "31121"
+    description: "Alneta di ontano nero e/o bianco"
+    tags:
+      landuse: forest
+      species: "Alnus glutinosa; Alnus incana; Salix cinerea"
+      plant_community:it: "Alneta di ontano nero e/o bianco"
+      leaf_type: broadleaved
+  - clc_lv_all: "31122"
+    description: "Alneta di ontano verde"
+    tags:
+      landuse: forest
+      species: "Alnus viridis; Salix appendiculata"
+      plant_community:it: "Alneta di ontano verde"
+      leaf_type: broadleaved
+  - clc_lv_all: "31123"
+    description: "Betuleto"
+    tags:
+      landuse: forest
+      species: "Betula pendula; Tilia cordata"
+      plant_community:it: "Betuleto"
+      leaf_type: broadleaved
+  - clc_lv_all: "31131"
+    description: "Castagneto con frassino"
+    tags:
+      landuse: forest
+      species: "Castanea sativa; Fagus sylvatica; Fraxinus excelsior"
+      plant_community:it: "Castagneto con frassino"
+      leaf_type: broadleaved
+  - clc_lv_all: "31132"
+    description: "Castagneto dei substrati magmatici"
+    tags:
+      landuse: forest
+      species: "Castanea sativa; Carpinus betulus"
+      plant_community:it: "Castagneto dei substrati magmatici"
+      leaf_type: broadleaved
+  - clc_lv_all: "31133"
+    description: "Castagneto dei suoli mesici"
+    tags:
+      landuse: forest
+      species: "Castanea sativa"
+      plant_community:it: "Castagneto dei suoli mesici"
+      leaf_type: broadleaved
+  - clc_lv_all: "31134"
+    description: "Castagneto dei suoli xerici"
+    tags:
+      landuse: forest
+      species: "Castanea sativa; Ostrya carpinifolia"
+      plant_community:it: "Castagneto dei suoli xerici"
+      leaf_type: broadleaved
+  - clc_lv_all: "31135"
+    description: "Rovereto dei substrati magmatici"
+    tags:
+      landuse: forest
+      species: "Quercus petraea; Quercus pubescens; Castanea sativa"
+      plant_community:it: "Rovereto dei substrati magmatici"
+      leaf_type: broadleaved
+  - clc_lv_all: "31136"
+    description: "Rovereto tipico"
+    tags:
+      landuse: forest
+      species: "Quercus petraea; Ostrya carpinifolia; Castanea sativa"
+      plant_community:it: "Rovereto tipico"
+      leaf_type: broadleaved
+  - clc_lv_all: "31141"
+    description: "Faggeta altimontana"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica; Alnus viridis; Larix decidua"
+      plant_community:it: "Faggeta altimontana"
+      leaf_type: broadleaved
+  - clc_lv_all: "31142"
+    description: "Faggeta montana tipica esalpica"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica"
+      plant_community:it: "Faggeta montana tipica esalpica"
+      leaf_type: broadleaved
+  - clc_lv_all: "31143"
+    description: "Faggeta montana tipica esomesalpica"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica; Pinus nigra"
+      plant_community:it: "Faggeta montana tipica esomesalpica"
+      leaf_type: broadleaved
+  - clc_lv_all: "31144"
+    description: "Faggeta montana tipica mesalpica"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica"
+      plant_community:it: "Faggeta montana tipica mesalpica"
+      leaf_type: broadleaved
+  - clc_lv_all: "31145"
+    description: "Faggeta primitiva"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica"
+      plant_community:it: "Faggeta primitiva"
+      leaf_type: broadleaved
+  - clc_lv_all: "31146"
+    description: "Faggeta submontana con ostria"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica; Ostrya carpinifolia; Quercus cerris"
+      plant_community:it: "Faggeta submontana con ostria"
+      leaf_type: broadleaved
+  - clc_lv_all: "31147"
+    description: "Faggeta submontana dei suoli acidi"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica"
+      plant_community:it: "Faggeta submontana dei suoli acidi"
+      leaf_type: broadleaved
+  - clc_lv_all: "31148"
+    description: "Faggeta submontana dei suoli mesici"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica; Ostrya carpinifolia; Ulmus glabra"
+      plant_community:it: "Faggeta submontana dei suoli mesici"
+      leaf_type: broadleaved
+  - clc_lv_all: "31149"
+    description: "Faggeta submontana tipica"
+    tags:
+      landuse: forest
+      species: "Fagus sylvatica"
+      plant_community:it: "Faggeta submontana tipica"
+      leaf_type: broadleaved
+  - clc_lv_all: "31151"
+    description: "Impianto di latifoglie"
+    tags:
+      landuse: forest
+      produce: wood
+      plant_community:it: "Impianto di latifoglie"
+      leaf_type: broadleaved
+  - clc_lv_all: "31152"
+    description: "Robinieto"
+    tags:
+      landuse: forest
+      species: "Robinia pseudoacacia"
+      plant_community:it: "Robinieto"
+      leaf_type: broadleaved
+  - clc_lv_all: "31161"
+    description: "Bosco costiero dei suoli idrici"
+    tags:
+      landuse: forest
+      species: "Alnus glutinosa; Populus alba"
+      plant_community:it: "Bosco costiero dei suoli idrici"
+      leaf_type: broadleaved
+  - clc_lv_all: "31162"
+    description: "Lecceta"
+    tags:
+      landuse: forest
+      species: "Quercus ilex; Pinus pinea"
+      plant_community:it: "Lecceta"
+      leaf_type: evergreen
+  - clc_lv_all: "31163"
+    description: "Saliceti e altre formazioni riparie"
+    tags:
+      landuse: forest
+      genus: Salix
+      plant_community:it: "Saliceti e altre formazioni riparie"
+      leaf_type: broadleaved
+  - clc_lv_all: "31171"
+    description: "Querceto dei substrati magmatici con elementi mediterranei"
+    tags:
+      landuse: forest
+      species: "Quercus pubescens; Fraxinus ornus"
+      plant_community:it: "Querceto dei substrati magmatici con elementi mediterranei"
+      leaf_type: broadleaved
+  - clc_lv_all: "31181"
+    description: "Orno-ostrieto con leccio"
+    tags:
+      landuse: forest
+      species: "Ostrya carpinifolia; Quercus ilex; Fraxinus ornus"
+      plant_community:it: "Orno-ostrieto con leccio"
+      leaf_type: mixed
+  - clc_lv_all: "31182"
+    description: "Orno-ostrieto primitivo"
+    tags:
+      landuse: forest
+      species: "Ostrya carpinifolia; Fraxinus ornus; Castanea sativa"
+      plant_community:it: "Orno-ostrieto primitivo"
+      leaf_type: broadleaved
+  - clc_lv_all: "31183"
+    description: "Orno-ostrieto tipico"
+    tags:
+      landuse: forest
+      species: "Ostrya carpinifolia; Fraxinus ornus"
+      plant_community:it: "Orno-ostrieto tipico"
+      leaf_type: broadleaved
+  - clc_lv_all: "31184"
+    description: "Ostrio-querceto a scotano"
+    tags:
+      landuse: forest
+      species: "Quercus pubescens; Ostrya carpinifolia; Quercus cerris"
+      plant_community:it: "Ostrio-querceto a scotano"
+      leaf_type: broadleaved
+  - clc_lv_all: "31185"
+    description: "Ostrio-querceto tipico"
+    tags:
+      landuse: forest
+      species: "Quercus pubescens; Ostrya carpinifolia"
+      plant_community:it: "Ostrio-querceto tipico"
+      leaf_type: broadleaved
+  - clc_lv_all: "31192"
+    description: "Carpineto con frassino"
+    tags:
+      landuse: forest
+      species: "Carpinus betulus; Fraxinus excelsior; Alnus glutinosa"
+      plant_community:it: "Carpineto con frassino"
+      leaf_type: broadleaved
+  - clc_lv_all: "31193"
+    description: "Carpineto con ostria"
+    tags:
+      landuse: forest
+      species: "Carpinus betulus; Ostrya carpinifolia"
+      plant_community:it: "Carpineto con ostria"
+      leaf_type: broadleaved
+  - clc_lv_all: "31194"
+    description: "Carpineto tipico"
+    tags:
+      landuse: forest
+      species: "Carpinus betulus; Quercus robur; Salix alba"
+      plant_community:it: "Carpineto tipico"
+      leaf_type: broadleaved
+  - clc_lv_all: "31195"
+    description: "Querco-carpineto collinare"
+    tags:
+      landuse: forest
+      species: "Quercus robur; Quercus petraea; Carpinus betulus"
+      plant_community:it: "Querco-carpineto collinare"
+      leaf_type: broadleaved
+  - clc_lv_all: "31196"
+    description: "Querco-carpineto planiziale"
+    tags:
+      landuse: forest
+      species: "Carpinus betulus; Quercus robur"
+      plant_community:it: "Querco-carpineto planiziale"
+      leaf_type: broadleaved
+
+  # Zone Boschive (Coniferous forests)
+  - clc_lv_all: "31211"
+    description: "Abieteto dei substrati carbonatici"
+    tags:
+      landuse: forest
+      species: "Picea abies; Abies alba"
+      plant_community:it: "Abieteto dei substrati carbonatici"
+      leaf_type: needleleaved
+  - clc_lv_all: "31212"
+    description: "Abieteto dei substrati silicatici"
+    tags:
+      landuse: forest
+      species: "Picea abies; Abies alba"
+      plant_community:it: "Abieteto dei substrati silicatici"
+      leaf_type: needleleaved
+  - clc_lv_all: "31213"
+    description: "Abieteto dei suoli mesici con faggio"
+    tags:
+      landuse: forest
+      species: "Abies alba; Picea abies; Fagus sylvatica"
+      plant_community:it: "Abieteto dei suoli mesici con faggio"
+      leaf_type: needleleaved
+  - clc_lv_all: "31214"
+    description: "Abieteto dei suoli mesici tipico"
+    tags:
+      landuse: forest
+      species: "Abies alba; Picea abies"
+      plant_community:it: "Abieteto dei suoli mesici tipico"
+      leaf_type: needleleaved
+  - clc_lv_all: "31215"
+    description: "Abieteto esomesalpico montano"
+    tags:
+      landuse: forest
+      species: "Abies alba; Fagus sylvatica; Picea abies"
+      plant_community:it: "Abieteto esomesalpico montano"
+      leaf_type: needleleaved
+  - clc_lv_all: "31221"
+    description: "Formazione antropogena di conifere"
+    tags:
+      landuse: forest
+      plant_community:it: "Formazione antropogena di conifere"
+      leaf_type: needleleaved
+  - clc_lv_all: "31231"
+    description: "Lariceto primitivo"
+    tags:
+      landuse: forest
+      species: "Larix decidua"
+      plant_community:it: "Lariceto primitivo"
+      leaf_type: needleleaved
+  - clc_lv_all: "31232"
+    description: "Lariceto tipico"
+    tags:
+      landuse: forest
+      species: "Larix decidua"
+      plant_community:it: "Lariceto tipico"
+      leaf_type: needleleaved
+  - clc_lv_all: "31233"
+    description: "Larici-cembreto con abete rosso"
+    tags:
+      landuse: forest
+      species: "Larix decidua; Pinus cembra; Picea abies"
+      plant_community:it: "Larici-cembreto con abete rosso"
+      leaf_type: needleleaved
+  - clc_lv_all: "31234"
+    description: "Larici-cembreto con ontano verde"
+    tags:
+      landuse: forest
+      species: "Larix decidua; Pinus cembra; Alnus viridis"
+      plant_community:it: "Larici-cembreto con ontano verde"
+      leaf_type: mixed
+  - clc_lv_all: "31235"
+    description: "Larici-cembreto tipico"
+    tags:
+      landuse: forest
+      species: "Larix decidua; Pinus cembra"
+      plant_community:it: "Larici-cembreto tipico"
+      leaf_type: needleleaved
+  - clc_lv_all: "31241"
+    description: "Pecceta con frassino e/o acero"
+    tags:
+      landuse: forest
+      species: "Picea abies; Acer pseudoplatanus; Fraxinus excelsior"
+      plant_community:it: "Pecceta con frassino e/o acero"
+      leaf_type: mixed
+  - clc_lv_all: "31242"
+    description: "Pecceta altimontana dei sububstrati carbonatici"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta altimontana dei sububstrati carbonatici"
+      leaf_type: needleleaved
+  - clc_lv_all: "31243"
+    description: "Pecceta subalpina dei sububstrati carbonatici"
+    tags:
+      landuse: forest
+      species: "Picea abies; Larix decidua"
+      plant_community:it: "Pecceta subalpina dei sububstrati carbonatici"
+      leaf_type: needleleaved
+  - clc_lv_all: "31244"
+    description: "Pecceta dei substrati silicatici dei suoli mesici altimontana"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta dei substrati silicatici dei suoli mesici altimontana"
+      leaf_type: needleleaved
+  - clc_lv_all: "31245"
+    description: "Pecceta dei subtrati silicatici dei suoli mesici subalpina"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta dei subtrati silicatici dei suoli mesici subalpina"
+      leaf_type: needleleaved
+  - clc_lv_all: "31246"
+    description: "Pecceta dei substratici silicatici dei suoli xerici altimontana"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta dei substratici silicatici dei suoli xerici altimontana"
+      leaf_type: needleleaved
+  - clc_lv_all: "31247"
+    description: "Pecceta dei substrati silicatici dei suoli xerici montana"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta dei substrati silicatici dei suoli xerici montana"
+      leaf_type: needleleaved
+  - clc_lv_all: "31248"
+    description: "Pecceta dei substrati silicatici dei suoli xerici subalpina"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta dei substrati silicatici dei suoli xerici subalpina"
+      leaf_type: needleleaved
+  - clc_lv_all: "31249"
+    description: "Pecceta secondaria montana"
+    tags:
+      landuse: forest
+      species: "Picea abies"
+      plant_community:it: "Pecceta secondaria montana"
+      leaf_type: needleleaved
+  - clc_lv_all: "31251"
+    description: "Pineta di pino silvestre endalpica"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris"
+      plant_community:it: "Pineta di pino silvestre endalpica"
+      leaf_type: needleleaved
+  - clc_lv_all: "31252"
+    description: "Pineta di pino silvestre esalpica con faggio"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris; Fagus sylvatica"
+      plant_community:it: "Pineta di pino silvestre esalpica con faggio"
+      leaf_type: needleleaved
+  - clc_lv_all: "31253"
+    description: "Pineta di pino silvestre esalpica con pino nero"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris; Pinus nigra"
+      plant_community:it: "Pineta di pino silvestre esalpica con pino nero"
+      leaf_type: needleleaved
+  - clc_lv_all: "31254"
+    description: "Pineta di pino silvestre esalpica tipica"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris; Ostrya carpinifolia"
+      plant_community:it: "Pineta di pino silvestre esalpica tipica"
+      leaf_type: needleleaved
+  - clc_lv_all: "31256"
+    description: "Pineta di pino silvestre mesalpica con abete rosso"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris; Picea albies; Pinus nigra"
+      plant_community:it: "Pineta di pino silvestre mesalpica con abete rosso"
+      leaf_type: needleleaved
+  - clc_lv_all: "31257"
+    description: "Pineta di pino silvestre mesalpica tipica"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris; Pinus nigra; Pinus mugo"
+      plant_community:it: "Pineta di pino silvestre mesalpica tipica"
+      leaf_type: needleleaved
+  - clc_lv_all: "31258"
+    description: "Pineta di pino silvestre primitiva"
+    tags:
+      landuse: forest
+      species: "Pinus sylvestris; Larix decidua"
+      plant_community:it: "Pineta di pino silvestre primitiva"
+      leaf_type: needleleaved
+  - clc_lv_all: "31311"
+    description: "Piceo-faggeto dei suoli mesici"
+    tags:
+      landuse: forest
+      species: "Picea abies; Fagus sylvatica"
+      plant_community:it: "Piceo-faggeto dei suoli mesici"
+      leaf_type: mixed
+  - clc_lv_all: "31312"
+    description: "Piceo-faggeto dei suoli xerici"
+    tags:
+      landuse: forest
+      species: "Picea abies; Fagus sylvatica"
+      plant_community:it: "Piceo-faggeto dei suoli xerici"
+      leaf_type: mixed
+
+  # Arbusteti e pascoli
+  - clc_lv_all: "32110"
+    description: "Malghe (edificio e annessi)"
+    tags:
+      landuse: farmyard
+  - clc_lv_all: "32120"
+    description: "Pascoli di pertinenza di malga"
+    tags:
+      landuse: meadow
+  - clc_lv_all: "32130"
+    description: "Pascoli diversi"
+    tags:
+      natural: fell
+      note: "Se pascolato aggiungere managed=grazing"
+  - clc_lv_all: "32211"
+    description: "Arbusteto"
+    tags:
+      natural: scrub
+      note: "Verificare che non si tratti di natural=heath"
+  - clc_lv_all: "32231"
+    description: "Mugheta macroterma"
+    tags:
+      natural: scrub
+      species: "Pinus mugo"
+      plant_community:it: "Mugheta macroterma"
+  - clc_lv_all: "32232"
+    description: "Mugheta mesoterma"
+    tags:
+      natural: scrub
+      species: "Pinus mugo"
+      plant_community:it: "Mugheta mesoterma"
+  - clc_lv_all: "32233"
+    description: "Mugheta microterma"
+    tags:
+      natural: scrub
+      species: "Pinus mugo; Larix decidua; Rhododendron sp."
+      plant_community:it: "Mugheta microterma"
+  - clc_lv_all: "32400"
+    description: "Vegetazione in evoluzione"
+    tags:
+      natural: scrub
+
+  # Elementi rocciosi
+  - clc_lv_all: "33100"
+    description: "Spiagge, dune, sabbie"
+    tags:
+      natural: beach
+  - clc_lv_all: "33120"
+    description: "Vegetazione delle dune litoranee"
+    tags:
+      natural: heath
+  - clc_lv_all: "33200"
+    description: "Rocce nude"
+    tags:
+      natural: bare_rock
+  - clc_lv_all: "33210"
+    description: "Greti e letti di fiumi e torrenti"
+    tags:
+      natural: riverbed
+      note: "Verificare che il materiale presente è gravel o altro (sand, rock, etc)"
+  - clc_lv_all: "33220"
+    description: "Piste da sci e linee di impianti di risalita"
+    tags:
+      landuse: winter_sports
+      note: "Se possibile aggiungere dettagli ad es. piste_type=*"
+  - clc_lv_all: "33230"
+    description: "Ghiaioni"
+    tags:
+      natural: scree
+  - clc_lv_all: "33300"
+    description: "Aree a vegetazione rada"
+    tags:
+      natural: fell
+  - clc_lv_all: "33400"
+    description: "Aree percorse da incendi"
+    tags:
+      note: "Aree percorse da incendi. Taggare in base alle ortofoto"
+  - clc_lv_all: "33500"
+    description: "Ghiacciai e nevi perenni"
+    tags:
+      natural: glacier
+
+  # Ambienti umidi
+  - clc_lv_all: "41100"
+    description: "Ambienti umidi fluviali"
+    tags:
+      natural: wetland
+  - clc_lv_all: "41110"
+    description: "Vegetazione a dominanza di canneti/giuncheti (zone umide fluviali)"
+    tags:
+      natural: wetland
+      wetland: reedbed
+  - clc_lv_all: "41200"
+    description: "Ambienti umidi lacuali"
+    tags:
+      natural: wetland
+  - clc_lv_all: "41210"
+    description: "Vegetazione a dominanza di canneti/giuncheti (zone umide lacuali)"
+    tags:
+      natural: wetland
+      wetland: reedbed
+  - clc_lv_all: "41220"
+    description: "Vegetazione caratterizzata da dominanza arboreo/arbustiva igrofila"
+    tags:
+      natural: wetland
+      wetland: swamp
+  - clc_lv_all: "42100"
+    description: "Paludi salmastre"
+    tags:
+      natural: wetland
+      wetland: saltmarsh
+  - clc_lv_all: "42110"
+    description: "Casse di colmata aperte rispetto alla laguna o al mare"
+    tags:
+      natural: wetland
+      wetland: saltmarsh
+  - clc_lv_all: "42130"
+    description: "Barene"
+    tags:
+      natural: wetland
+      wetland: saltmarsh
+  - clc_lv_all: "42140"
+    description: "Vegetazione a dominanza di canneti/giuncheti (zone umide costiere)"
+    tags:
+      natural: wetland
+      wetland: reedbed
+  - clc_lv_all: "42150"
+    description: "Valli da pesca"
+    tags:
+      landuse: pond
+      managed: "yes"
+      produce: "fish/seafood"
+  - clc_lv_all: "42310"
+    description: "Velme lagunari"
+    tags:
+      natural: wetland
+      wetland: tidalflat
+
+  # Fiumi e canali
+  - clc_lv_all: "51110"
+    description: "Fiumi, torrenti e fossi"
+    tags:
+      natural: water
+      water: river
+      waterway: riverbank
+  - clc_lv_all: "51120"
+    description: "Canali e idrovie"
+    tags:
+      natural: water
+      water: canal
+      waterway: riverbank
+  - clc_lv_all: "51210"
+    description: "Bacini senza manifeste utilizzazione produttive"
+    tags:
+      natural: water
+      water: reservoir
+  - clc_lv_all: "51220"
+    description: "Bacini con prevalente utilizzazione elettrica"
+    tags:
+      natural: water
+      water: reservoir
+      reservoir_type: hydro_power
+  - clc_lv_all: "51230"
+    description: "Bacini con prevalente destinazione idrica"
+    tags:
+      natural: water
+      water: reservoir
+      reservoir_type: water_storage
+  - clc_lv_all: "51240"
+    description: "Bacini con prevalente altra destinazione produttiva"
+    tags:
+      natural: water
+      water: reservoir
+  - clc_lv_all: "52110"
+    description: "Canali lagunari"
+    tags:
+      natural: water
+      water: canal
+      tidal: "yes"
+  - clc_lv_all: "52120"
+    description: "Specchi lagunari navigabili solo in condizioni di alta marea"
+    tags:
+      natural: water
+      water: pond
+      shallow: "yes"
+      tidal: "yes"
+  - clc_lv_all: "52130"
+    description: "Acquacolture di acqua salmastra"
+    tags:
+      landuse: aquaculture
+      brackish: "yes"
+  - clc_lv_all: "52300"
+    description: "Mari e Oceani"
+    tags:
+      note: "Eliminare questo poligono (Mari e Oceani)"
