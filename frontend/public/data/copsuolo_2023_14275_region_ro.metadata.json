@@ -1,0 +1,422 @@
+{
+  "layer_name": "copsuolo",
+  "pmtiles_path": "copsuolo_2023_14275_region_ro.pmtiles",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 23451,
+  "municipality_count": 50,
+  "bounds": [
+    11.173009,
+    44.792013,
+    12.5532235,
+    45.1633457
+  ],
+  "normalized_path": "copsuolo_2023_14275_region_ro.ndjson",
+  "categories": [
+    {
+      "key": "cemetery",
+      "label": "Cemetery",
+      "count": 100
+    },
+    {
+      "key": "construction",
+      "label": "Construction",
+      "count": 15
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "count": 235
+    },
+    {
+      "key": "farmland",
+      "label": "Farmland",
+      "count": 4021
+    },
+    {
+      "key": "forest",
+      "label": "Forest",
+      "count": 483
+    },
+    {
+      "key": "grass",
+      "label": "Grass",
+      "count": 1258
+    },
+    {
+      "key": "industrial",
+      "label": "Industrial",
+      "count": 1427
+    },
+    {
+      "key": "meadow",
+      "label": "Meadow",
+      "count": 930
+    },
+    {
+      "key": "orchard",
+      "label": "Orchard",
+      "count": 625
+    },
+    {
+      "key": "other",
+      "label": "Other",
+      "count": 1396
+    },
+    {
+      "key": "park",
+      "label": "Park",
+      "count": 178
+    },
+    {
+      "key": "quarry",
+      "label": "Quarry",
+      "count": 15
+    },
+    {
+      "key": "railway",
+      "label": "Railway",
+      "count": 65
+    },
+    {
+      "key": "religious",
+      "label": "Religious",
+      "count": 74
+    },
+    {
+      "key": "residential",
+      "label": "Residential",
+      "count": 10705
+    },
+    {
+      "key": "retail",
+      "label": "Retail",
+      "count": 77
+    },
+    {
+      "key": "sports_centre",
+      "label": "Sports Centre",
+      "count": 144
+    },
+    {
+      "key": "vineyard",
+      "label": "Vineyard",
+      "count": 525
+    },
+    {
+      "key": "water",
+      "label": "Water",
+      "count": 1178
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "adria",
+      "name": "Adria",
+      "code": "29001",
+      "file": "adria_29001.osm"
+    },
+    {
+      "slug": "ariano-nel-polesine",
+      "name": "Ariano Nel Polesine",
+      "code": "29002",
+      "file": "ariano-nel-polesine_29002.osm"
+    },
+    {
+      "slug": "arqua-polesine",
+      "name": "Arqua Polesine",
+      "code": "29003",
+      "file": "arqua-polesine_29003.osm"
+    },
+    {
+      "slug": "badia-polesine",
+      "name": "Badia Polesine",
+      "code": "29004",
+      "file": "badia-polesine_29004.osm"
+    },
+    {
+      "slug": "bagnolo-di-po",
+      "name": "Bagnolo Di Po",
+      "code": "29005",
+      "file": "bagnolo-di-po_29005.osm"
+    },
+    {
+      "slug": "bergantino",
+      "name": "Bergantino",
+      "code": "29006",
+      "file": "bergantino_29006.osm"
+    },
+    {
+      "slug": "bosaro",
+      "name": "Bosaro",
+      "code": "29007",
+      "file": "bosaro_29007.osm"
+    },
+    {
+      "slug": "calto",
+      "name": "Calto",
+      "code": "29008",
+      "file": "calto_29008.osm"
+    },
+    {
+      "slug": "canaro",
+      "name": "Canaro",
+      "code": "29009",
+      "file": "canaro_29009.osm"
+    },
+    {
+      "slug": "canda",
+      "name": "Canda",
+      "code": "29010",
+      "file": "canda_29010.osm"
+    },
+    {
+      "slug": "castelguglielmo",
+      "name": "Castelguglielmo",
+      "code": "29011",
+      "file": "castelguglielmo_29011.osm"
+    },
+    {
+      "slug": "castelmassa",
+      "name": "Castelmassa",
+      "code": "29012",
+      "file": "castelmassa_29012.osm"
+    },
+    {
+      "slug": "castelnovo-bariano",
+      "name": "Castelnovo Bariano",
+      "code": "29013",
+      "file": "castelnovo-bariano_29013.osm"
+    },
+    {
+      "slug": "ceneselli",
+      "name": "Ceneselli",
+      "code": "29014",
+      "file": "ceneselli_29014.osm"
+    },
+    {
+      "slug": "ceregnano",
+      "name": "Ceregnano",
+      "code": "29015",
+      "file": "ceregnano_29015.osm"
+    },
+    {
+      "slug": "corbola",
+      "name": "Corbola",
+      "code": "29017",
+      "file": "corbola_29017.osm"
+    },
+    {
+      "slug": "costa-di-rovigo",
+      "name": "Costa Di Rovigo",
+      "code": "29018",
+      "file": "costa-di-rovigo_29018.osm"
+    },
+    {
+      "slug": "crespino",
+      "name": "Crespino",
+      "code": "29019",
+      "file": "crespino_29019.osm"
+    },
+    {
+      "slug": "ficarolo",
+      "name": "Ficarolo",
+      "code": "29021",
+      "file": "ficarolo_29021.osm"
+    },
+    {
+      "slug": "fiesso-umbertiano",
+      "name": "Fiesso Umbertiano",
+      "code": "29022",
+      "file": "fiesso-umbertiano_29022.osm"
+    },
+    {
+      "slug": "frassinelle-polesine",
+      "name": "Frassinelle Polesine",
+      "code": "29023",
+      "file": "frassinelle-polesine_29023.osm"
+    },
+    {
+      "slug": "fratta-polesine",
+      "name": "Fratta Polesine",
+      "code": "29024",
+      "file": "fratta-polesine_29024.osm"
+    },
+    {
+      "slug": "gaiba",
+      "name": "Gaiba",
+      "code": "29025",
+      "file": "gaiba_29025.osm"
+    },
+    {
+      "slug": "gavello",
+      "name": "Gavello",
+      "code": "29026",
+      "file": "gavello_29026.osm"
+    },
+    {
+      "slug": "giacciano-con-baruchella",
+      "name": "Giacciano Con Baruchella",
+      "code": "29027",
+      "file": "giacciano-con-baruchella_29027.osm"
+    },
+    {
+      "slug": "guarda-veneta",
+      "name": "Guarda Veneta",
+      "code": "29028",
+      "file": "guarda-veneta_29028.osm"
+    },
+    {
+      "slug": "lendinara",
+      "name": "Lendinara",
+      "code": "29029",
+      "file": "lendinara_29029.osm"
+    },
+    {
+      "slug": "loreo",
+      "name": "Loreo",
+      "code": "29030",
+      "file": "loreo_29030.osm"
+    },
+    {
+      "slug": "lusia",
+      "name": "Lusia",
+      "code": "29031",
+      "file": "lusia_29031.osm"
+    },
+    {
+      "slug": "melara",
+      "name": "Melara",
+      "code": "29032",
+      "file": "melara_29032.osm"
+    },
+    {
+      "slug": "occhiobello",
+      "name": "Occhiobello",
+      "code": "29033",
+      "file": "occhiobello_29033.osm"
+    },
+    {
+      "slug": "papozze",
+      "name": "Papozze",
+      "code": "29034",
+      "file": "papozze_29034.osm"
+    },
+    {
+      "slug": "pettorazza-grimani",
+      "name": "Pettorazza Grimani",
+      "code": "29035",
+      "file": "pettorazza-grimani_29035.osm"
+    },
+    {
+      "slug": "pincara",
+      "name": "Pincara",
+      "code": "29036",
+      "file": "pincara_29036.osm"
+    },
+    {
+      "slug": "polesella",
+      "name": "Polesella",
+      "code": "29037",
+      "file": "polesella_29037.osm"
+    },
+    {
+      "slug": "pontecchio-polesine",
+      "name": "Pontecchio Polesine",
+      "code": "29038",
+      "file": "pontecchio-polesine_29038.osm"
+    },
+    {
+      "slug": "porto-tolle",
+      "name": "Porto Tolle",
+      "code": "29039",
+      "file": "porto-tolle_29039.osm"
+    },
+    {
+      "slug": "porto-viro",
+      "name": "Porto Viro",
+      "code": "29052",
+      "file": "porto-viro_29052.osm"
+    },
+    {
+      "slug": "rosolina",
+      "name": "Rosolina",
+      "code": "29040",
+      "file": "rosolina_29040.osm"
+    },
+    {
+      "slug": "rovigo",
+      "name": "Rovigo",
+      "code": "29041",
+      "file": "rovigo_29041.osm"
+    },
+    {
+      "slug": "salara",
+      "name": "Salara",
+      "code": "29042",
+      "file": "salara_29042.osm"
+    },
+    {
+      "slug": "san-bellino",
+      "name": "San Bellino",
+      "code": "29043",
+      "file": "san-bellino_29043.osm"
+    },
+    {
+      "slug": "san-martino-di-venezze",
+      "name": "San Martino Di Venezze",
+      "code": "29044",
+      "file": "san-martino-di-venezze_29044.osm"
+    },
+    {
+      "slug": "stienta",
+      "name": "Stienta",
+      "code": "29045",
+      "file": "stienta_29045.osm"
+    },
+    {
+      "slug": "taglio-di-po",
+      "name": "Taglio Di Po",
+      "code": "29046",
+      "file": "taglio-di-po_29046.osm"
+    },
+    {
+      "slug": "trecenta",
+      "name": "Trecenta",
+      "code": "29047",
+      "file": "trecenta_29047.osm"
+    },
+    {
+      "slug": "villadose",
+      "name": "Villadose",
+      "code": "29048",
+      "file": "villadose_29048.osm"
+    },
+    {
+      "slug": "villamarzana",
+      "name": "Villamarzana",
+      "code": "29049",
+      "file": "villamarzana_29049.osm"
+    },
+    {
+      "slug": "villanova-del-ghebbo",
+      "name": "Villanova Del Ghebbo",
+      "code": "29050",
+      "file": "villanova-del-ghebbo_29050.osm"
+    },
+    {
+      "slug": "villanova-marchesana",
+      "name": "Villanova Marchesana",
+      "code": "29051",
+      "file": "villanova-marchesana_29051.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:41:23Z",
+    "region_imported_at": "2026-03-09T11:42:17Z",
+    "region_latest_osm_mtime": "2026-03-09T11:42:17Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

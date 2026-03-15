@@ -1,0 +1,637 @@
+{
+  "layer_name": "compare",
+  "pmtiles_path": "copsuolo_2023_14275_compare_vr.pmtiles",
+  "source_pbf": "italy-nord-est.osm.pbf",
+  "source_normalized_path": "copsuolo_2023_14275_region_vr.ndjson",
+  "osm_normalized_path": "copsuolo_2023_14275_osm_vr.ndjson",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 236808,
+  "bounds": [
+    10.6231033,
+    45.0530513,
+    11.491357,
+    45.8318248
+  ],
+  "categories": [
+    {
+      "key": "match",
+      "label": "Corrispondenza",
+      "count": 52163,
+      "color": "#2f9e44"
+    },
+    {
+      "key": "mismatch",
+      "label": "Tag diversi",
+      "count": 117373,
+      "color": "#d6a400"
+    },
+    {
+      "key": "missing_in_osm",
+      "label": "Manca in OSM",
+      "count": 67272,
+      "color": "#d94841"
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "affi",
+      "name": "Affi",
+      "code": "23001",
+      "file": "affi_23001.osm"
+    },
+    {
+      "slug": "albaredo-dadige",
+      "name": "Albaredo Dadige",
+      "code": "23002",
+      "file": "albaredo-dadige_23002.osm"
+    },
+    {
+      "slug": "angiari",
+      "name": "Angiari",
+      "code": "23003",
+      "file": "angiari_23003.osm"
+    },
+    {
+      "slug": "arcole",
+      "name": "Arcole",
+      "code": "23004",
+      "file": "arcole_23004.osm"
+    },
+    {
+      "slug": "badia-calavena",
+      "name": "Badia Calavena",
+      "code": "23005",
+      "file": "badia-calavena_23005.osm"
+    },
+    {
+      "slug": "bardolino",
+      "name": "Bardolino",
+      "code": "23006",
+      "file": "bardolino_23006.osm"
+    },
+    {
+      "slug": "belfiore",
+      "name": "Belfiore",
+      "code": "23007",
+      "file": "belfiore_23007.osm"
+    },
+    {
+      "slug": "bevilacqua",
+      "name": "Bevilacqua",
+      "code": "23008",
+      "file": "bevilacqua_23008.osm"
+    },
+    {
+      "slug": "bonavigo",
+      "name": "Bonavigo",
+      "code": "23009",
+      "file": "bonavigo_23009.osm"
+    },
+    {
+      "slug": "boschi-santanna",
+      "name": "Boschi Santanna",
+      "code": "23010",
+      "file": "boschi-santanna_23010.osm"
+    },
+    {
+      "slug": "bosco-chiesanuova",
+      "name": "Bosco Chiesanuova",
+      "code": "23011",
+      "file": "bosco-chiesanuova_23011.osm"
+    },
+    {
+      "slug": "bovolone",
+      "name": "Bovolone",
+      "code": "23012",
+      "file": "bovolone_23012.osm"
+    },
+    {
+      "slug": "brentino-belluno",
+      "name": "Brentino Belluno",
+      "code": "23013",
+      "file": "brentino-belluno_23013.osm"
+    },
+    {
+      "slug": "brenzone-sul-garda",
+      "name": "Brenzone Sul Garda",
+      "code": "23014",
+      "file": "brenzone-sul-garda_23014.osm"
+    },
+    {
+      "slug": "bussolengo",
+      "name": "Bussolengo",
+      "code": "23015",
+      "file": "bussolengo_23015.osm"
+    },
+    {
+      "slug": "buttapietra",
+      "name": "Buttapietra",
+      "code": "23016",
+      "file": "buttapietra_23016.osm"
+    },
+    {
+      "slug": "caldiero",
+      "name": "Caldiero",
+      "code": "23017",
+      "file": "caldiero_23017.osm"
+    },
+    {
+      "slug": "caprino-veronese",
+      "name": "Caprino Veronese",
+      "code": "23018",
+      "file": "caprino-veronese_23018.osm"
+    },
+    {
+      "slug": "casaleone",
+      "name": "Casaleone",
+      "code": "23019",
+      "file": "casaleone_23019.osm"
+    },
+    {
+      "slug": "castagnaro",
+      "name": "Castagnaro",
+      "code": "23020",
+      "file": "castagnaro_23020.osm"
+    },
+    {
+      "slug": "castel-dazzano",
+      "name": "Castel Dazzano",
+      "code": "23021",
+      "file": "castel-dazzano_23021.osm"
+    },
+    {
+      "slug": "castelnuovo-del-garda",
+      "name": "Castelnuovo Del Garda",
+      "code": "23022",
+      "file": "castelnuovo-del-garda_23022.osm"
+    },
+    {
+      "slug": "cavaion-veronese",
+      "name": "Cavaion Veronese",
+      "code": "23023",
+      "file": "cavaion-veronese_23023.osm"
+    },
+    {
+      "slug": "cazzano-di-tramigna",
+      "name": "Cazzano Di Tramigna",
+      "code": "23024",
+      "file": "cazzano-di-tramigna_23024.osm"
+    },
+    {
+      "slug": "cerea",
+      "name": "Cerea",
+      "code": "23025",
+      "file": "cerea_23025.osm"
+    },
+    {
+      "slug": "cerro-veronese",
+      "name": "Cerro Veronese",
+      "code": "23026",
+      "file": "cerro-veronese_23026.osm"
+    },
+    {
+      "slug": "cologna-veneta",
+      "name": "Cologna Veneta",
+      "code": "23027",
+      "file": "cologna-veneta_23027.osm"
+    },
+    {
+      "slug": "colognola-ai-colli",
+      "name": "Colognola Ai Colli",
+      "code": "23028",
+      "file": "colognola-ai-colli_23028.osm"
+    },
+    {
+      "slug": "concamarise",
+      "name": "Concamarise",
+      "code": "23029",
+      "file": "concamarise_23029.osm"
+    },
+    {
+      "slug": "costermano-sul-garda",
+      "name": "Costermano Sul Garda",
+      "code": "23030",
+      "file": "costermano-sul-garda_23030.osm"
+    },
+    {
+      "slug": "dolce",
+      "name": "Dolce",
+      "code": "23031",
+      "file": "dolce_23031.osm"
+    },
+    {
+      "slug": "erbe",
+      "name": "Erbe",
+      "code": "23032",
+      "file": "erbe_23032.osm"
+    },
+    {
+      "slug": "erbezzo",
+      "name": "Erbezzo",
+      "code": "23033",
+      "file": "erbezzo_23033.osm"
+    },
+    {
+      "slug": "ferrara-di-monte-baldo",
+      "name": "Ferrara Di Monte Baldo",
+      "code": "23034",
+      "file": "ferrara-di-monte-baldo_23034.osm"
+    },
+    {
+      "slug": "fumane",
+      "name": "Fumane",
+      "code": "23035",
+      "file": "fumane_23035.osm"
+    },
+    {
+      "slug": "garda",
+      "name": "Garda",
+      "code": "23036",
+      "file": "garda_23036.osm"
+    },
+    {
+      "slug": "gazzo-veronese",
+      "name": "Gazzo Veronese",
+      "code": "23037",
+      "file": "gazzo-veronese_23037.osm"
+    },
+    {
+      "slug": "grezzana",
+      "name": "Grezzana",
+      "code": "23038",
+      "file": "grezzana_23038.osm"
+    },
+    {
+      "slug": "illasi",
+      "name": "Illasi",
+      "code": "23039",
+      "file": "illasi_23039.osm"
+    },
+    {
+      "slug": "isola-della-scala",
+      "name": "Isola Della Scala",
+      "code": "23040",
+      "file": "isola-della-scala_23040.osm"
+    },
+    {
+      "slug": "isola-rizza",
+      "name": "Isola Rizza",
+      "code": "23041",
+      "file": "isola-rizza_23041.osm"
+    },
+    {
+      "slug": "lavagno",
+      "name": "Lavagno",
+      "code": "23042",
+      "file": "lavagno_23042.osm"
+    },
+    {
+      "slug": "lazise",
+      "name": "Lazise",
+      "code": "23043",
+      "file": "lazise_23043.osm"
+    },
+    {
+      "slug": "legnago",
+      "name": "Legnago",
+      "code": "23044",
+      "file": "legnago_23044.osm"
+    },
+    {
+      "slug": "malcesine",
+      "name": "Malcesine",
+      "code": "23045",
+      "file": "malcesine_23045.osm"
+    },
+    {
+      "slug": "marano-di-valpolicella",
+      "name": "Marano Di Valpolicella",
+      "code": "23046",
+      "file": "marano-di-valpolicella_23046.osm"
+    },
+    {
+      "slug": "mezzane-di-sotto",
+      "name": "Mezzane Di Sotto",
+      "code": "23047",
+      "file": "mezzane-di-sotto_23047.osm"
+    },
+    {
+      "slug": "minerbe",
+      "name": "Minerbe",
+      "code": "23048",
+      "file": "minerbe_23048.osm"
+    },
+    {
+      "slug": "montecchia-di-crosara",
+      "name": "Montecchia Di Crosara",
+      "code": "23049",
+      "file": "montecchia-di-crosara_23049.osm"
+    },
+    {
+      "slug": "monteforte-dalpone",
+      "name": "Monteforte Dalpone",
+      "code": "23050",
+      "file": "monteforte-dalpone_23050.osm"
+    },
+    {
+      "slug": "mozzecane",
+      "name": "Mozzecane",
+      "code": "23051",
+      "file": "mozzecane_23051.osm"
+    },
+    {
+      "slug": "negrar-di-valpolicella",
+      "name": "Negrar Di Valpolicella",
+      "code": "23052",
+      "file": "negrar-di-valpolicella_23052.osm"
+    },
+    {
+      "slug": "nogara",
+      "name": "Nogara",
+      "code": "23053",
+      "file": "nogara_23053.osm"
+    },
+    {
+      "slug": "nogarole-rocca",
+      "name": "Nogarole Rocca",
+      "code": "23054",
+      "file": "nogarole-rocca_23054.osm"
+    },
+    {
+      "slug": "oppeano",
+      "name": "Oppeano",
+      "code": "23055",
+      "file": "oppeano_23055.osm"
+    },
+    {
+      "slug": "palu",
+      "name": "Palu",
+      "code": "23056",
+      "file": "palu_23056.osm"
+    },
+    {
+      "slug": "pastrengo",
+      "name": "Pastrengo",
+      "code": "23057",
+      "file": "pastrengo_23057.osm"
+    },
+    {
+      "slug": "pescantina",
+      "name": "Pescantina",
+      "code": "23058",
+      "file": "pescantina_23058.osm"
+    },
+    {
+      "slug": "peschiera-del-garda",
+      "name": "Peschiera Del Garda",
+      "code": "23059",
+      "file": "peschiera-del-garda_23059.osm"
+    },
+    {
+      "slug": "povegliano-veronese",
+      "name": "Povegliano Veronese",
+      "code": "23060",
+      "file": "povegliano-veronese_23060.osm"
+    },
+    {
+      "slug": "pressana",
+      "name": "Pressana",
+      "code": "23061",
+      "file": "pressana_23061.osm"
+    },
+    {
+      "slug": "rivoli-veronese",
+      "name": "Rivoli Veronese",
+      "code": "23062",
+      "file": "rivoli-veronese_23062.osm"
+    },
+    {
+      "slug": "ronca",
+      "name": "Ronca",
+      "code": "23063",
+      "file": "ronca_23063.osm"
+    },
+    {
+      "slug": "ronco-alladige",
+      "name": "Ronco Alladige",
+      "code": "23064",
+      "file": "ronco-alladige_23064.osm"
+    },
+    {
+      "slug": "roverchiara",
+      "name": "Roverchiara",
+      "code": "23065",
+      "file": "roverchiara_23065.osm"
+    },
+    {
+      "slug": "rovere-veronese",
+      "name": "Rovere Veronese",
+      "code": "23067",
+      "file": "rovere-veronese_23067.osm"
+    },
+    {
+      "slug": "roveredo-di-gua",
+      "name": "Roveredo Di Gua",
+      "code": "23066",
+      "file": "roveredo-di-gua_23066.osm"
+    },
+    {
+      "slug": "salizzole",
+      "name": "Salizzole",
+      "code": "23068",
+      "file": "salizzole_23068.osm"
+    },
+    {
+      "slug": "san-bonifacio",
+      "name": "San Bonifacio",
+      "code": "23069",
+      "file": "san-bonifacio_23069.osm"
+    },
+    {
+      "slug": "san-giovanni-ilarione",
+      "name": "San Giovanni Ilarione",
+      "code": "23070",
+      "file": "san-giovanni-ilarione_23070.osm"
+    },
+    {
+      "slug": "san-giovanni-lupatoto",
+      "name": "San Giovanni Lupatoto",
+      "code": "23071",
+      "file": "san-giovanni-lupatoto_23071.osm"
+    },
+    {
+      "slug": "san-martino-buon-albergo",
+      "name": "San Martino Buon Albergo",
+      "code": "23073",
+      "file": "san-martino-buon-albergo_23073.osm"
+    },
+    {
+      "slug": "san-mauro-di-saline",
+      "name": "San Mauro Di Saline",
+      "code": "23074",
+      "file": "san-mauro-di-saline_23074.osm"
+    },
+    {
+      "slug": "san-pietro-di-morubio",
+      "name": "San Pietro Di Morubio",
+      "code": "23075",
+      "file": "san-pietro-di-morubio_23075.osm"
+    },
+    {
+      "slug": "san-pietro-in-cariano",
+      "name": "San Pietro In Cariano",
+      "code": "23076",
+      "file": "san-pietro-in-cariano_23076.osm"
+    },
+    {
+      "slug": "san-zeno-di-montagna",
+      "name": "San Zeno Di Montagna",
+      "code": "23079",
+      "file": "san-zeno-di-montagna_23079.osm"
+    },
+    {
+      "slug": "sanguinetto",
+      "name": "Sanguinetto",
+      "code": "23072",
+      "file": "sanguinetto_23072.osm"
+    },
+    {
+      "slug": "santambrogio-di-valpolicella",
+      "name": "Santambrogio Di Valpolicella",
+      "code": "23077",
+      "file": "santambrogio-di-valpolicella_23077.osm"
+    },
+    {
+      "slug": "santanna-dalfaedo",
+      "name": "Santanna Dalfaedo",
+      "code": "23078",
+      "file": "santanna-dalfaedo_23078.osm"
+    },
+    {
+      "slug": "selva-di-progno",
+      "name": "Selva Di Progno",
+      "code": "23080",
+      "file": "selva-di-progno_23080.osm"
+    },
+    {
+      "slug": "soave",
+      "name": "Soave",
+      "code": "23081",
+      "file": "soave_23081.osm"
+    },
+    {
+      "slug": "sommacampagna",
+      "name": "Sommacampagna",
+      "code": "23082",
+      "file": "sommacampagna_23082.osm"
+    },
+    {
+      "slug": "sona",
+      "name": "Sona",
+      "code": "23083",
+      "file": "sona_23083.osm"
+    },
+    {
+      "slug": "sorga",
+      "name": "Sorga",
+      "code": "23084",
+      "file": "sorga_23084.osm"
+    },
+    {
+      "slug": "terrazzo",
+      "name": "Terrazzo",
+      "code": "23085",
+      "file": "terrazzo_23085.osm"
+    },
+    {
+      "slug": "torri-del-benaco",
+      "name": "Torri Del Benaco",
+      "code": "23086",
+      "file": "torri-del-benaco_23086.osm"
+    },
+    {
+      "slug": "tregnago",
+      "name": "Tregnago",
+      "code": "23087",
+      "file": "tregnago_23087.osm"
+    },
+    {
+      "slug": "trevenzuolo",
+      "name": "Trevenzuolo",
+      "code": "23088",
+      "file": "trevenzuolo_23088.osm"
+    },
+    {
+      "slug": "valeggio-sul-mincio",
+      "name": "Valeggio Sul Mincio",
+      "code": "23089",
+      "file": "valeggio-sul-mincio_23089.osm"
+    },
+    {
+      "slug": "velo-veronese",
+      "name": "Velo Veronese",
+      "code": "23090",
+      "file": "velo-veronese_23090.osm"
+    },
+    {
+      "slug": "verona",
+      "name": "Verona",
+      "code": "23091",
+      "file": "verona_23091.osm"
+    },
+    {
+      "slug": "veronella",
+      "name": "Veronella",
+      "code": "23092",
+      "file": "veronella_23092.osm"
+    },
+    {
+      "slug": "vestenanova",
+      "name": "Vestenanova",
+      "code": "23093",
+      "file": "vestenanova_23093.osm"
+    },
+    {
+      "slug": "vigasio",
+      "name": "Vigasio",
+      "code": "23094",
+      "file": "vigasio_23094.osm"
+    },
+    {
+      "slug": "villa-bartolomea",
+      "name": "Villa Bartolomea",
+      "code": "23095",
+      "file": "villa-bartolomea_23095.osm"
+    },
+    {
+      "slug": "villafranca-di-verona",
+      "name": "Villafranca Di Verona",
+      "code": "23096",
+      "file": "villafranca-di-verona_23096.osm"
+    },
+    {
+      "slug": "zevio",
+      "name": "Zevio",
+      "code": "23097",
+      "file": "zevio_23097.osm"
+    },
+    {
+      "slug": "zimella",
+      "name": "Zimella",
+      "code": "23098",
+      "file": "zimella_23098.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:54:26Z",
+    "region_imported_at": "2026-03-09T11:22:12Z",
+    "region_latest_osm_mtime": "2026-03-09T11:22:12Z",
+    "osm_imported_at": "2026-03-10T17:54:26Z",
+    "osm_source_pbf_path": "data/italy-nord-est.osm.pbf",
+    "osm_source_pbf_mtime": "2026-03-09T14:19:56Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

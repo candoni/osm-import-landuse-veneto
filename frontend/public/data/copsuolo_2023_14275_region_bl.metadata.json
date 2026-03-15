@@ -1,0 +1,482 @@
+{
+  "layer_name": "copsuolo",
+  "pmtiles_path": "copsuolo_2023_14275_region_bl.pmtiles",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 57755,
+  "municipality_count": 60,
+  "bounds": [
+    11.6659208,
+    45.8805106,
+    12.7322912,
+    46.6806275
+  ],
+  "normalized_path": "copsuolo_2023_14275_region_bl.ndjson",
+  "categories": [
+    {
+      "key": "cemetery",
+      "label": "Cemetery",
+      "count": 147
+    },
+    {
+      "key": "construction",
+      "label": "Construction",
+      "count": 18
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "count": 167
+    },
+    {
+      "key": "farmland",
+      "label": "Farmland",
+      "count": 2969
+    },
+    {
+      "key": "forest",
+      "label": "Forest",
+      "count": 19973
+    },
+    {
+      "key": "grass",
+      "label": "Grass",
+      "count": 458
+    },
+    {
+      "key": "industrial",
+      "label": "Industrial",
+      "count": 866
+    },
+    {
+      "key": "meadow",
+      "label": "Meadow",
+      "count": 7584
+    },
+    {
+      "key": "orchard",
+      "label": "Orchard",
+      "count": 43
+    },
+    {
+      "key": "other",
+      "label": "Other",
+      "count": 14878
+    },
+    {
+      "key": "park",
+      "label": "Park",
+      "count": 151
+    },
+    {
+      "key": "quarry",
+      "label": "Quarry",
+      "count": 70
+    },
+    {
+      "key": "railway",
+      "label": "Railway",
+      "count": 45
+    },
+    {
+      "key": "religious",
+      "label": "Religious",
+      "count": 129
+    },
+    {
+      "key": "residential",
+      "label": "Residential",
+      "count": 9422
+    },
+    {
+      "key": "retail",
+      "label": "Retail",
+      "count": 24
+    },
+    {
+      "key": "sports_centre",
+      "label": "Sports Centre",
+      "count": 177
+    },
+    {
+      "key": "vineyard",
+      "label": "Vineyard",
+      "count": 308
+    },
+    {
+      "key": "water",
+      "label": "Water",
+      "count": 326
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "agordo",
+      "name": "Agordo",
+      "code": "25001",
+      "file": "agordo_25001.osm"
+    },
+    {
+      "slug": "alleghe",
+      "name": "Alleghe",
+      "code": "25003",
+      "file": "alleghe_25003.osm"
+    },
+    {
+      "slug": "alpago",
+      "name": "Alpago",
+      "code": "25072",
+      "file": "alpago_25072.osm"
+    },
+    {
+      "slug": "arsie",
+      "name": "Arsie",
+      "code": "25004",
+      "file": "arsie_25004.osm"
+    },
+    {
+      "slug": "auronzo-di-cadore",
+      "name": "Auronzo Di Cadore",
+      "code": "25005",
+      "file": "auronzo-di-cadore_25005.osm"
+    },
+    {
+      "slug": "belluno",
+      "name": "Belluno",
+      "code": "25006",
+      "file": "belluno_25006.osm"
+    },
+    {
+      "slug": "borca-di-cadore",
+      "name": "Borca Di Cadore",
+      "code": "25007",
+      "file": "borca-di-cadore_25007.osm"
+    },
+    {
+      "slug": "borgo-valbelluna",
+      "name": "Borgo Valbelluna",
+      "code": "25074",
+      "file": "borgo-valbelluna_25074.osm"
+    },
+    {
+      "slug": "calalzo-di-cadore",
+      "name": "Calalzo Di Cadore",
+      "code": "25008",
+      "file": "calalzo-di-cadore_25008.osm"
+    },
+    {
+      "slug": "canale-dagordo",
+      "name": "Canale Dagordo",
+      "code": "25023",
+      "file": "canale-dagordo_25023.osm"
+    },
+    {
+      "slug": "cencenighe-agordino",
+      "name": "Cencenighe Agordino",
+      "code": "25010",
+      "file": "cencenighe-agordino_25010.osm"
+    },
+    {
+      "slug": "cesiomaggiore",
+      "name": "Cesiomaggiore",
+      "code": "25011",
+      "file": "cesiomaggiore_25011.osm"
+    },
+    {
+      "slug": "chies-dalpago",
+      "name": "Chies Dalpago",
+      "code": "25012",
+      "file": "chies-dalpago_25012.osm"
+    },
+    {
+      "slug": "cibiana-di-cadore",
+      "name": "Cibiana Di Cadore",
+      "code": "25013",
+      "file": "cibiana-di-cadore_25013.osm"
+    },
+    {
+      "slug": "colle-santa-lucia",
+      "name": "Colle Santa Lucia",
+      "code": "25014",
+      "file": "colle-santa-lucia_25014.osm"
+    },
+    {
+      "slug": "comelico-superiore",
+      "name": "Comelico Superiore",
+      "code": "25015",
+      "file": "comelico-superiore_25015.osm"
+    },
+    {
+      "slug": "cortina-dampezzo",
+      "name": "Cortina Dampezzo",
+      "code": "25016",
+      "file": "cortina-dampezzo_25016.osm"
+    },
+    {
+      "slug": "danta-di-cadore",
+      "name": "Danta Di Cadore",
+      "code": "25017",
+      "file": "danta-di-cadore_25017.osm"
+    },
+    {
+      "slug": "domegge-di-cadore",
+      "name": "Domegge Di Cadore",
+      "code": "25018",
+      "file": "domegge-di-cadore_25018.osm"
+    },
+    {
+      "slug": "falcade",
+      "name": "Falcade",
+      "code": "25019",
+      "file": "falcade_25019.osm"
+    },
+    {
+      "slug": "feltre",
+      "name": "Feltre",
+      "code": "25021",
+      "file": "feltre_25021.osm"
+    },
+    {
+      "slug": "fonzaso",
+      "name": "Fonzaso",
+      "code": "25022",
+      "file": "fonzaso_25022.osm"
+    },
+    {
+      "slug": "gosaldo",
+      "name": "Gosaldo",
+      "code": "25025",
+      "file": "gosaldo_25025.osm"
+    },
+    {
+      "slug": "la-valle-agordina",
+      "name": "La Valle Agordina",
+      "code": "25027",
+      "file": "la-valle-agordina_25027.osm"
+    },
+    {
+      "slug": "lamon",
+      "name": "Lamon",
+      "code": "25026",
+      "file": "lamon_25026.osm"
+    },
+    {
+      "slug": "limana",
+      "name": "Limana",
+      "code": "25029",
+      "file": "limana_25029.osm"
+    },
+    {
+      "slug": "livinallongo-del-col-di-lana",
+      "name": "Livinallongo Del Col Di Lana",
+      "code": "25030",
+      "file": "livinallongo-del-col-di-lana_25030.osm"
+    },
+    {
+      "slug": "longarone",
+      "name": "Longarone",
+      "code": "25071",
+      "file": "longarone_25071.osm"
+    },
+    {
+      "slug": "lorenzago-di-cadore",
+      "name": "Lorenzago Di Cadore",
+      "code": "25032",
+      "file": "lorenzago-di-cadore_25032.osm"
+    },
+    {
+      "slug": "lozzo-di-cadore",
+      "name": "Lozzo Di Cadore",
+      "code": "25033",
+      "file": "lozzo-di-cadore_25033.osm"
+    },
+    {
+      "slug": "ospitale-di-cadore",
+      "name": "Ospitale Di Cadore",
+      "code": "25035",
+      "file": "ospitale-di-cadore_25035.osm"
+    },
+    {
+      "slug": "pedavena",
+      "name": "Pedavena",
+      "code": "25036",
+      "file": "pedavena_25036.osm"
+    },
+    {
+      "slug": "perarolo-di-cadore",
+      "name": "Perarolo Di Cadore",
+      "code": "25037",
+      "file": "perarolo-di-cadore_25037.osm"
+    },
+    {
+      "slug": "pieve-di-cadore",
+      "name": "Pieve Di Cadore",
+      "code": "25039",
+      "file": "pieve-di-cadore_25039.osm"
+    },
+    {
+      "slug": "ponte-nelle-alpi",
+      "name": "Ponte Nelle Alpi",
+      "code": "25040",
+      "file": "ponte-nelle-alpi_25040.osm"
+    },
+    {
+      "slug": "rivamonte-agordino",
+      "name": "Rivamonte Agordino",
+      "code": "25043",
+      "file": "rivamonte-agordino_25043.osm"
+    },
+    {
+      "slug": "rocca-pietore",
+      "name": "Rocca Pietore",
+      "code": "25044",
+      "file": "rocca-pietore_25044.osm"
+    },
+    {
+      "slug": "san-gregorio-nelle-alpi",
+      "name": "San Gregorio Nelle Alpi",
+      "code": "25045",
+      "file": "san-gregorio-nelle-alpi_25045.osm"
+    },
+    {
+      "slug": "san-nicolo-di-comelico",
+      "name": "San Nicolo Di Comelico",
+      "code": "25046",
+      "file": "san-nicolo-di-comelico_25046.osm"
+    },
+    {
+      "slug": "san-pietro-di-cadore",
+      "name": "San Pietro Di Cadore",
+      "code": "25047",
+      "file": "san-pietro-di-cadore_25047.osm"
+    },
+    {
+      "slug": "san-tomaso-agordino",
+      "name": "San Tomaso Agordino",
+      "code": "25049",
+      "file": "san-tomaso-agordino_25049.osm"
+    },
+    {
+      "slug": "san-vito-di-cadore",
+      "name": "San Vito Di Cadore",
+      "code": "25051",
+      "file": "san-vito-di-cadore_25051.osm"
+    },
+    {
+      "slug": "santa-giustina",
+      "name": "Santa Giustina",
+      "code": "25048",
+      "file": "santa-giustina_25048.osm"
+    },
+    {
+      "slug": "santo-stefano-di-cadore",
+      "name": "Santo Stefano Di Cadore",
+      "code": "25050",
+      "file": "santo-stefano-di-cadore_25050.osm"
+    },
+    {
+      "slug": "sedico",
+      "name": "Sedico",
+      "code": "25053",
+      "file": "sedico_25053.osm"
+    },
+    {
+      "slug": "selva-di-cadore",
+      "name": "Selva Di Cadore",
+      "code": "25054",
+      "file": "selva-di-cadore_25054.osm"
+    },
+    {
+      "slug": "seren-del-grappa",
+      "name": "Seren Del Grappa",
+      "code": "25055",
+      "file": "seren-del-grappa_25055.osm"
+    },
+    {
+      "slug": "setteville",
+      "name": "Setteville",
+      "code": "25075",
+      "file": "setteville_25075.osm"
+    },
+    {
+      "slug": "sospirolo",
+      "name": "Sospirolo",
+      "code": "25056",
+      "file": "sospirolo_25056.osm"
+    },
+    {
+      "slug": "soverzene",
+      "name": "Soverzene",
+      "code": "25057",
+      "file": "soverzene_25057.osm"
+    },
+    {
+      "slug": "sovramonte",
+      "name": "Sovramonte",
+      "code": "25058",
+      "file": "sovramonte_25058.osm"
+    },
+    {
+      "slug": "taibon-agordino",
+      "name": "Taibon Agordino",
+      "code": "25059",
+      "file": "taibon-agordino_25059.osm"
+    },
+    {
+      "slug": "tambre",
+      "name": "Tambre",
+      "code": "25060",
+      "file": "tambre_25060.osm"
+    },
+    {
+      "slug": "val-di-zoldo",
+      "name": "Val Di Zoldo",
+      "code": "25073",
+      "file": "val-di-zoldo_25073.osm"
+    },
+    {
+      "slug": "vallada-agordina",
+      "name": "Vallada Agordina",
+      "code": "25062",
+      "file": "vallada-agordina_25062.osm"
+    },
+    {
+      "slug": "valle-di-cadore",
+      "name": "Valle Di Cadore",
+      "code": "25063",
+      "file": "valle-di-cadore_25063.osm"
+    },
+    {
+      "slug": "vigo-di-cadore",
+      "name": "Vigo Di Cadore",
+      "code": "25065",
+      "file": "vigo-di-cadore_25065.osm"
+    },
+    {
+      "slug": "vodo-cadore",
+      "name": "Vodo Cadore",
+      "code": "25066",
+      "file": "vodo-cadore_25066.osm"
+    },
+    {
+      "slug": "voltago-agordino",
+      "name": "Voltago Agordino",
+      "code": "25067",
+      "file": "voltago-agordino_25067.osm"
+    },
+    {
+      "slug": "zoppe-di-cadore",
+      "name": "Zoppe Di Cadore",
+      "code": "25069",
+      "file": "zoppe-di-cadore_25069.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:40:36Z",
+    "region_imported_at": "2026-03-09T12:03:08Z",
+    "region_latest_osm_mtime": "2026-03-09T12:03:08Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

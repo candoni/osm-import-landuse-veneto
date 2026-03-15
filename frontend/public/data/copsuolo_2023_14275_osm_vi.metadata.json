@@ -1,0 +1,828 @@
+{
+  "layer_name": "osm",
+  "pmtiles_path": "copsuolo_2023_14275_osm_vi.pmtiles",
+  "source_pbf": "italy-nord-est.osm.pbf",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 71230,
+  "bounds": [
+    11.0106541,
+    45.2134786,
+    11.8775958,
+    46.1926321
+  ],
+  "normalized_path": "copsuolo_2023_14275_osm_vi.ndjson",
+  "categories": [
+    {
+      "key": "residential",
+      "label": "Residenziale",
+      "count": 10935
+    },
+    {
+      "key": "industrial",
+      "label": "Industriale",
+      "count": 2316
+    },
+    {
+      "key": "farmland",
+      "label": "Agricolo",
+      "count": 13575
+    },
+    {
+      "key": "forest",
+      "label": "Bosco",
+      "count": 9149
+    },
+    {
+      "key": "vineyard",
+      "label": "Vigneto",
+      "count": 10261
+    },
+    {
+      "key": "orchard",
+      "label": "Frutteto",
+      "count": 2602
+    },
+    {
+      "key": "grass",
+      "label": "Erboso",
+      "count": 3819
+    },
+    {
+      "key": "meadow",
+      "label": "Prato",
+      "count": 10166
+    },
+    {
+      "key": "water",
+      "label": "Acqua",
+      "count": 2283
+    },
+    {
+      "key": "wetland",
+      "label": "Zona umida",
+      "count": 50
+    },
+    {
+      "key": "park",
+      "label": "Parco",
+      "count": 1411
+    },
+    {
+      "key": "sports_centre",
+      "label": "Centro sportivo",
+      "count": 696
+    },
+    {
+      "key": "cemetery",
+      "label": "Cimitero",
+      "count": 504
+    },
+    {
+      "key": "education",
+      "label": "Istruzione",
+      "count": 850
+    },
+    {
+      "key": "healthcare",
+      "label": "Sanita'",
+      "count": 34
+    },
+    {
+      "key": "power",
+      "label": "Energia",
+      "count": 541
+    },
+    {
+      "key": "aeroway",
+      "label": "Aeronautico",
+      "count": 87
+    },
+    {
+      "key": "construction",
+      "label": "Cantiere",
+      "count": 170
+    },
+    {
+      "key": "religious",
+      "label": "Religioso",
+      "count": 1241
+    },
+    {
+      "key": "retail",
+      "label": "Commerciale",
+      "count": 116
+    },
+    {
+      "key": "railway",
+      "label": "Ferrovia",
+      "count": 15
+    },
+    {
+      "key": "quarry",
+      "label": "Cava",
+      "count": 186
+    },
+    {
+      "key": "landfill",
+      "label": "Discarica",
+      "count": 24
+    },
+    {
+      "key": "other",
+      "label": "Altro",
+      "count": 199
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "agugliaro",
+      "name": "Agugliaro",
+      "code": "24001",
+      "file": "agugliaro_24001.osm"
+    },
+    {
+      "slug": "albettone",
+      "name": "Albettone",
+      "code": "24002",
+      "file": "albettone_24002.osm"
+    },
+    {
+      "slug": "alonte",
+      "name": "Alonte",
+      "code": "24003",
+      "file": "alonte_24003.osm"
+    },
+    {
+      "slug": "altavilla-vicentina",
+      "name": "Altavilla Vicentina",
+      "code": "24004",
+      "file": "altavilla-vicentina_24004.osm"
+    },
+    {
+      "slug": "altissimo",
+      "name": "Altissimo",
+      "code": "24005",
+      "file": "altissimo_24005.osm"
+    },
+    {
+      "slug": "arcugnano",
+      "name": "Arcugnano",
+      "code": "24006",
+      "file": "arcugnano_24006.osm"
+    },
+    {
+      "slug": "arsiero",
+      "name": "Arsiero",
+      "code": "24007",
+      "file": "arsiero_24007.osm"
+    },
+    {
+      "slug": "arzignano",
+      "name": "Arzignano",
+      "code": "24008",
+      "file": "arzignano_24008.osm"
+    },
+    {
+      "slug": "asiago",
+      "name": "Asiago",
+      "code": "24009",
+      "file": "asiago_24009.osm"
+    },
+    {
+      "slug": "asigliano-veneto",
+      "name": "Asigliano Veneto",
+      "code": "24010",
+      "file": "asigliano-veneto_24010.osm"
+    },
+    {
+      "slug": "barbarano-mossano",
+      "name": "Barbarano Mossano",
+      "code": "24124",
+      "file": "barbarano-mossano_24124.osm"
+    },
+    {
+      "slug": "bassano-del-grappa",
+      "name": "Bassano Del Grappa",
+      "code": "24012",
+      "file": "bassano-del-grappa_24012.osm"
+    },
+    {
+      "slug": "bolzano-vicentino",
+      "name": "Bolzano Vicentino",
+      "code": "24013",
+      "file": "bolzano-vicentino_24013.osm"
+    },
+    {
+      "slug": "breganze",
+      "name": "Breganze",
+      "code": "24014",
+      "file": "breganze_24014.osm"
+    },
+    {
+      "slug": "brendola",
+      "name": "Brendola",
+      "code": "24015",
+      "file": "brendola_24015.osm"
+    },
+    {
+      "slug": "bressanvido",
+      "name": "Bressanvido",
+      "code": "24016",
+      "file": "bressanvido_24016.osm"
+    },
+    {
+      "slug": "brogliano",
+      "name": "Brogliano",
+      "code": "24017",
+      "file": "brogliano_24017.osm"
+    },
+    {
+      "slug": "caldogno",
+      "name": "Caldogno",
+      "code": "24018",
+      "file": "caldogno_24018.osm"
+    },
+    {
+      "slug": "caltrano",
+      "name": "Caltrano",
+      "code": "24019",
+      "file": "caltrano_24019.osm"
+    },
+    {
+      "slug": "calvene",
+      "name": "Calvene",
+      "code": "24020",
+      "file": "calvene_24020.osm"
+    },
+    {
+      "slug": "camisano-vicentino",
+      "name": "Camisano Vicentino",
+      "code": "24021",
+      "file": "camisano-vicentino_24021.osm"
+    },
+    {
+      "slug": "campiglia-dei-berici",
+      "name": "Campiglia Dei Berici",
+      "code": "24022",
+      "file": "campiglia-dei-berici_24022.osm"
+    },
+    {
+      "slug": "carre",
+      "name": "Carre",
+      "code": "24024",
+      "file": "carre_24024.osm"
+    },
+    {
+      "slug": "cartigliano",
+      "name": "Cartigliano",
+      "code": "24025",
+      "file": "cartigliano_24025.osm"
+    },
+    {
+      "slug": "cassola",
+      "name": "Cassola",
+      "code": "24026",
+      "file": "cassola_24026.osm"
+    },
+    {
+      "slug": "castegnero",
+      "name": "Castegnero",
+      "code": "24027",
+      "file": "castegnero_24027.osm"
+    },
+    {
+      "slug": "castelgomberto",
+      "name": "Castelgomberto",
+      "code": "24028",
+      "file": "castelgomberto_24028.osm"
+    },
+    {
+      "slug": "chiampo",
+      "name": "Chiampo",
+      "code": "24029",
+      "file": "chiampo_24029.osm"
+    },
+    {
+      "slug": "chiuppano",
+      "name": "Chiuppano",
+      "code": "24030",
+      "file": "chiuppano_24030.osm"
+    },
+    {
+      "slug": "cogollo-del-cengio",
+      "name": "Cogollo Del Cengio",
+      "code": "24032",
+      "file": "cogollo-del-cengio_24032.osm"
+    },
+    {
+      "slug": "colceresa",
+      "name": "Colceresa",
+      "code": "24126",
+      "file": "colceresa_24126.osm"
+    },
+    {
+      "slug": "cornedo-vicentino",
+      "name": "Cornedo Vicentino",
+      "code": "24034",
+      "file": "cornedo-vicentino_24034.osm"
+    },
+    {
+      "slug": "costabissara",
+      "name": "Costabissara",
+      "code": "24035",
+      "file": "costabissara_24035.osm"
+    },
+    {
+      "slug": "creazzo",
+      "name": "Creazzo",
+      "code": "24036",
+      "file": "creazzo_24036.osm"
+    },
+    {
+      "slug": "crespadoro",
+      "name": "Crespadoro",
+      "code": "24037",
+      "file": "crespadoro_24037.osm"
+    },
+    {
+      "slug": "dueville",
+      "name": "Dueville",
+      "code": "24038",
+      "file": "dueville_24038.osm"
+    },
+    {
+      "slug": "enego",
+      "name": "Enego",
+      "code": "24039",
+      "file": "enego_24039.osm"
+    },
+    {
+      "slug": "fara-vicentino",
+      "name": "Fara Vicentino",
+      "code": "24040",
+      "file": "fara-vicentino_24040.osm"
+    },
+    {
+      "slug": "foza",
+      "name": "Foza",
+      "code": "24041",
+      "file": "foza_24041.osm"
+    },
+    {
+      "slug": "gallio",
+      "name": "Gallio",
+      "code": "24042",
+      "file": "gallio_24042.osm"
+    },
+    {
+      "slug": "gambellara",
+      "name": "Gambellara",
+      "code": "24043",
+      "file": "gambellara_24043.osm"
+    },
+    {
+      "slug": "grisignano-di-zocco",
+      "name": "Grisignano Di Zocco",
+      "code": "24046",
+      "file": "grisignano-di-zocco_24046.osm"
+    },
+    {
+      "slug": "grumolo-delle-abbadesse",
+      "name": "Grumolo Delle Abbadesse",
+      "code": "24047",
+      "file": "grumolo-delle-abbadesse_24047.osm"
+    },
+    {
+      "slug": "isola-vicentina",
+      "name": "Isola Vicentina",
+      "code": "24048",
+      "file": "isola-vicentina_24048.osm"
+    },
+    {
+      "slug": "laghi",
+      "name": "Laghi",
+      "code": "24049",
+      "file": "laghi_24049.osm"
+    },
+    {
+      "slug": "lastebasse",
+      "name": "Lastebasse",
+      "code": "24050",
+      "file": "lastebasse_24050.osm"
+    },
+    {
+      "slug": "longare",
+      "name": "Longare",
+      "code": "24051",
+      "file": "longare_24051.osm"
+    },
+    {
+      "slug": "lonigo",
+      "name": "Lonigo",
+      "code": "24052",
+      "file": "lonigo_24052.osm"
+    },
+    {
+      "slug": "lugo-di-vicenza",
+      "name": "Lugo Di Vicenza",
+      "code": "24053",
+      "file": "lugo-di-vicenza_24053.osm"
+    },
+    {
+      "slug": "lusiana-conco",
+      "name": "Lusiana Conco",
+      "code": "24127",
+      "file": "lusiana-conco_24127.osm"
+    },
+    {
+      "slug": "malo",
+      "name": "Malo",
+      "code": "24055",
+      "file": "malo_24055.osm"
+    },
+    {
+      "slug": "marano-vicentino",
+      "name": "Marano Vicentino",
+      "code": "24056",
+      "file": "marano-vicentino_24056.osm"
+    },
+    {
+      "slug": "marostica",
+      "name": "Marostica",
+      "code": "24057",
+      "file": "marostica_24057.osm"
+    },
+    {
+      "slug": "monte-di-malo",
+      "name": "Monte Di Malo",
+      "code": "24063",
+      "file": "monte-di-malo_24063.osm"
+    },
+    {
+      "slug": "montebello-vicentino",
+      "name": "Montebello Vicentino",
+      "code": "24060",
+      "file": "montebello-vicentino_24060.osm"
+    },
+    {
+      "slug": "montecchio-maggiore",
+      "name": "Montecchio Maggiore",
+      "code": "24061",
+      "file": "montecchio-maggiore_24061.osm"
+    },
+    {
+      "slug": "montecchio-precalcino",
+      "name": "Montecchio Precalcino",
+      "code": "24062",
+      "file": "montecchio-precalcino_24062.osm"
+    },
+    {
+      "slug": "montegalda",
+      "name": "Montegalda",
+      "code": "24064",
+      "file": "montegalda_24064.osm"
+    },
+    {
+      "slug": "montegaldella",
+      "name": "Montegaldella",
+      "code": "24065",
+      "file": "montegaldella_24065.osm"
+    },
+    {
+      "slug": "monteviale",
+      "name": "Monteviale",
+      "code": "24066",
+      "file": "monteviale_24066.osm"
+    },
+    {
+      "slug": "monticello-conte-otto",
+      "name": "Monticello Conte Otto",
+      "code": "24067",
+      "file": "monticello-conte-otto_24067.osm"
+    },
+    {
+      "slug": "montorso-vicentino",
+      "name": "Montorso Vicentino",
+      "code": "24068",
+      "file": "montorso-vicentino_24068.osm"
+    },
+    {
+      "slug": "mussolente",
+      "name": "Mussolente",
+      "code": "24070",
+      "file": "mussolente_24070.osm"
+    },
+    {
+      "slug": "nanto",
+      "name": "Nanto",
+      "code": "24071",
+      "file": "nanto_24071.osm"
+    },
+    {
+      "slug": "nogarole-vicentino",
+      "name": "Nogarole Vicentino",
+      "code": "24072",
+      "file": "nogarole-vicentino_24072.osm"
+    },
+    {
+      "slug": "nove",
+      "name": "Nove",
+      "code": "24073",
+      "file": "nove_24073.osm"
+    },
+    {
+      "slug": "noventa-vicentina",
+      "name": "Noventa Vicentina",
+      "code": "24074",
+      "file": "noventa-vicentina_24074.osm"
+    },
+    {
+      "slug": "orgiano",
+      "name": "Orgiano",
+      "code": "24075",
+      "file": "orgiano_24075.osm"
+    },
+    {
+      "slug": "pedemonte",
+      "name": "Pedemonte",
+      "code": "24076",
+      "file": "pedemonte_24076.osm"
+    },
+    {
+      "slug": "pianezze",
+      "name": "Pianezze",
+      "code": "24077",
+      "file": "pianezze_24077.osm"
+    },
+    {
+      "slug": "piovene-rocchette",
+      "name": "Piovene Rocchette",
+      "code": "24078",
+      "file": "piovene-rocchette_24078.osm"
+    },
+    {
+      "slug": "pojana-maggiore",
+      "name": "Pojana Maggiore",
+      "code": "24079",
+      "file": "pojana-maggiore_24079.osm"
+    },
+    {
+      "slug": "posina",
+      "name": "Posina",
+      "code": "24080",
+      "file": "posina_24080.osm"
+    },
+    {
+      "slug": "pove-del-grappa",
+      "name": "Pove Del Grappa",
+      "code": "24081",
+      "file": "pove-del-grappa_24081.osm"
+    },
+    {
+      "slug": "pozzoleone",
+      "name": "Pozzoleone",
+      "code": "24082",
+      "file": "pozzoleone_24082.osm"
+    },
+    {
+      "slug": "quinto-vicentino",
+      "name": "Quinto Vicentino",
+      "code": "24083",
+      "file": "quinto-vicentino_24083.osm"
+    },
+    {
+      "slug": "recoaro-terme",
+      "name": "Recoaro Terme",
+      "code": "24084",
+      "file": "recoaro-terme_24084.osm"
+    },
+    {
+      "slug": "roana",
+      "name": "Roana",
+      "code": "24085",
+      "file": "roana_24085.osm"
+    },
+    {
+      "slug": "romano-dezzelino",
+      "name": "Romano Dezzelino",
+      "code": "24086",
+      "file": "romano-dezzelino_24086.osm"
+    },
+    {
+      "slug": "rosa",
+      "name": "Rosa",
+      "code": "24087",
+      "file": "rosa_24087.osm"
+    },
+    {
+      "slug": "rossano-veneto",
+      "name": "Rossano Veneto",
+      "code": "24088",
+      "file": "rossano-veneto_24088.osm"
+    },
+    {
+      "slug": "rotzo",
+      "name": "Rotzo",
+      "code": "24089",
+      "file": "rotzo_24089.osm"
+    },
+    {
+      "slug": "salcedo",
+      "name": "Salcedo",
+      "code": "24090",
+      "file": "salcedo_24090.osm"
+    },
+    {
+      "slug": "san-pietro-mussolino",
+      "name": "San Pietro Mussolino",
+      "code": "24094",
+      "file": "san-pietro-mussolino_24094.osm"
+    },
+    {
+      "slug": "san-vito-di-leguzzano",
+      "name": "San Vito Di Leguzzano",
+      "code": "24096",
+      "file": "san-vito-di-leguzzano_24096.osm"
+    },
+    {
+      "slug": "sandrigo",
+      "name": "Sandrigo",
+      "code": "24091",
+      "file": "sandrigo_24091.osm"
+    },
+    {
+      "slug": "santorso",
+      "name": "Santorso",
+      "code": "24095",
+      "file": "santorso_24095.osm"
+    },
+    {
+      "slug": "sarcedo",
+      "name": "Sarcedo",
+      "code": "24097",
+      "file": "sarcedo_24097.osm"
+    },
+    {
+      "slug": "sarego",
+      "name": "Sarego",
+      "code": "24098",
+      "file": "sarego_24098.osm"
+    },
+    {
+      "slug": "schiavon",
+      "name": "Schiavon",
+      "code": "24099",
+      "file": "schiavon_24099.osm"
+    },
+    {
+      "slug": "schio",
+      "name": "Schio",
+      "code": "24100",
+      "file": "schio_24100.osm"
+    },
+    {
+      "slug": "solagna",
+      "name": "Solagna",
+      "code": "24101",
+      "file": "solagna_24101.osm"
+    },
+    {
+      "slug": "sossano",
+      "name": "Sossano",
+      "code": "24102",
+      "file": "sossano_24102.osm"
+    },
+    {
+      "slug": "sovizzo",
+      "name": "Sovizzo",
+      "code": "24128",
+      "file": "sovizzo_24128.osm"
+    },
+    {
+      "slug": "tezze-sul-brenta",
+      "name": "Tezze Sul Brenta",
+      "code": "24104",
+      "file": "tezze-sul-brenta_24104.osm"
+    },
+    {
+      "slug": "thiene",
+      "name": "Thiene",
+      "code": "24105",
+      "file": "thiene_24105.osm"
+    },
+    {
+      "slug": "tonezza-del-cimone",
+      "name": "Tonezza Del Cimone",
+      "code": "24106",
+      "file": "tonezza-del-cimone_24106.osm"
+    },
+    {
+      "slug": "torrebelvicino",
+      "name": "Torrebelvicino",
+      "code": "24107",
+      "file": "torrebelvicino_24107.osm"
+    },
+    {
+      "slug": "torri-di-quartesolo",
+      "name": "Torri Di Quartesolo",
+      "code": "24108",
+      "file": "torri-di-quartesolo_24108.osm"
+    },
+    {
+      "slug": "trissino",
+      "name": "Trissino",
+      "code": "24110",
+      "file": "trissino_24110.osm"
+    },
+    {
+      "slug": "val-liona",
+      "name": "Val Liona",
+      "code": "24123",
+      "file": "val-liona_24123.osm"
+    },
+    {
+      "slug": "valbrenta",
+      "name": "Valbrenta",
+      "code": "24125",
+      "file": "valbrenta_24125.osm"
+    },
+    {
+      "slug": "valdagno",
+      "name": "Valdagno",
+      "code": "24111",
+      "file": "valdagno_24111.osm"
+    },
+    {
+      "slug": "valdastico",
+      "name": "Valdastico",
+      "code": "24112",
+      "file": "valdastico_24112.osm"
+    },
+    {
+      "slug": "valli-del-pasubio",
+      "name": "Valli Del Pasubio",
+      "code": "24113",
+      "file": "valli-del-pasubio_24113.osm"
+    },
+    {
+      "slug": "velo-dastico",
+      "name": "Velo Dastico",
+      "code": "24115",
+      "file": "velo-dastico_24115.osm"
+    },
+    {
+      "slug": "vicenza",
+      "name": "Vicenza",
+      "code": "24116",
+      "file": "vicenza_24116.osm"
+    },
+    {
+      "slug": "villaga",
+      "name": "Villaga",
+      "code": "24117",
+      "file": "villaga_24117.osm"
+    },
+    {
+      "slug": "villaverla",
+      "name": "Villaverla",
+      "code": "24118",
+      "file": "villaverla_24118.osm"
+    },
+    {
+      "slug": "zane",
+      "name": "Zane",
+      "code": "24119",
+      "file": "zane_24119.osm"
+    },
+    {
+      "slug": "zermeghedo",
+      "name": "Zermeghedo",
+      "code": "24120",
+      "file": "zermeghedo_24120.osm"
+    },
+    {
+      "slug": "zovencedo",
+      "name": "Zovencedo",
+      "code": "24121",
+      "file": "zovencedo_24121.osm"
+    },
+    {
+      "slug": "zugliano",
+      "name": "Zugliano",
+      "code": "24122",
+      "file": "zugliano_24122.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:46:02Z",
+    "region_imported_at": "2026-03-09T11:21:06Z",
+    "region_latest_osm_mtime": "2026-03-09T11:21:06Z",
+    "osm_imported_at": "2026-03-10T17:46:02Z",
+    "osm_source_pbf_path": "data/italy-nord-est.osm.pbf",
+    "osm_source_pbf_mtime": "2026-03-09T14:19:56Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

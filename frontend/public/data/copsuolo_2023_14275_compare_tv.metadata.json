@@ -1,0 +1,613 @@
+{
+  "layer_name": "compare",
+  "pmtiles_path": "copsuolo_2023_14275_compare_tv.pmtiles",
+  "source_pbf": "italy-nord-est.osm.pbf",
+  "source_normalized_path": "copsuolo_2023_14275_region_tv.ndjson",
+  "osm_normalized_path": "copsuolo_2023_14275_osm_tv.ndjson",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 324681,
+  "bounds": [
+    11.7430292,
+    45.5304822,
+    12.6853643,
+    46.0829734
+  ],
+  "categories": [
+    {
+      "key": "match",
+      "label": "Corrispondenza",
+      "count": 79933,
+      "color": "#2f9e44"
+    },
+    {
+      "key": "mismatch",
+      "label": "Tag diversi",
+      "count": 163413,
+      "color": "#d6a400"
+    },
+    {
+      "key": "missing_in_osm",
+      "label": "Manca in OSM",
+      "count": 81335,
+      "color": "#d94841"
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "altivole",
+      "name": "Altivole",
+      "code": "26001",
+      "file": "altivole_26001.osm"
+    },
+    {
+      "slug": "arcade",
+      "name": "Arcade",
+      "code": "26002",
+      "file": "arcade_26002.osm"
+    },
+    {
+      "slug": "asolo",
+      "name": "Asolo",
+      "code": "26003",
+      "file": "asolo_26003.osm"
+    },
+    {
+      "slug": "borso-del-grappa",
+      "name": "Borso Del Grappa",
+      "code": "26004",
+      "file": "borso-del-grappa_26004.osm"
+    },
+    {
+      "slug": "breda-di-piave",
+      "name": "Breda Di Piave",
+      "code": "26005",
+      "file": "breda-di-piave_26005.osm"
+    },
+    {
+      "slug": "caerano-di-san-marco",
+      "name": "Caerano Di San Marco",
+      "code": "26006",
+      "file": "caerano-di-san-marco_26006.osm"
+    },
+    {
+      "slug": "cappella-maggiore",
+      "name": "Cappella Maggiore",
+      "code": "26007",
+      "file": "cappella-maggiore_26007.osm"
+    },
+    {
+      "slug": "carbonera",
+      "name": "Carbonera",
+      "code": "26008",
+      "file": "carbonera_26008.osm"
+    },
+    {
+      "slug": "casale-sul-sile",
+      "name": "Casale Sul Sile",
+      "code": "26009",
+      "file": "casale-sul-sile_26009.osm"
+    },
+    {
+      "slug": "casier",
+      "name": "Casier",
+      "code": "26010",
+      "file": "casier_26010.osm"
+    },
+    {
+      "slug": "castelcucco",
+      "name": "Castelcucco",
+      "code": "26011",
+      "file": "castelcucco_26011.osm"
+    },
+    {
+      "slug": "castelfranco-veneto",
+      "name": "Castelfranco Veneto",
+      "code": "26012",
+      "file": "castelfranco-veneto_26012.osm"
+    },
+    {
+      "slug": "castello-di-godego",
+      "name": "Castello Di Godego",
+      "code": "26013",
+      "file": "castello-di-godego_26013.osm"
+    },
+    {
+      "slug": "cavaso-del-tomba",
+      "name": "Cavaso Del Tomba",
+      "code": "26014",
+      "file": "cavaso-del-tomba_26014.osm"
+    },
+    {
+      "slug": "cessalto",
+      "name": "Cessalto",
+      "code": "26015",
+      "file": "cessalto_26015.osm"
+    },
+    {
+      "slug": "chiarano",
+      "name": "Chiarano",
+      "code": "26016",
+      "file": "chiarano_26016.osm"
+    },
+    {
+      "slug": "cimadolmo",
+      "name": "Cimadolmo",
+      "code": "26017",
+      "file": "cimadolmo_26017.osm"
+    },
+    {
+      "slug": "cison-di-valmarino",
+      "name": "Cison Di Valmarino",
+      "code": "26018",
+      "file": "cison-di-valmarino_26018.osm"
+    },
+    {
+      "slug": "codogne",
+      "name": "Codogne",
+      "code": "26019",
+      "file": "codogne_26019.osm"
+    },
+    {
+      "slug": "colle-umberto",
+      "name": "Colle Umberto",
+      "code": "26020",
+      "file": "colle-umberto_26020.osm"
+    },
+    {
+      "slug": "conegliano",
+      "name": "Conegliano",
+      "code": "26021",
+      "file": "conegliano_26021.osm"
+    },
+    {
+      "slug": "cordignano",
+      "name": "Cordignano",
+      "code": "26022",
+      "file": "cordignano_26022.osm"
+    },
+    {
+      "slug": "cornuda",
+      "name": "Cornuda",
+      "code": "26023",
+      "file": "cornuda_26023.osm"
+    },
+    {
+      "slug": "crocetta-del-montello",
+      "name": "Crocetta Del Montello",
+      "code": "26025",
+      "file": "crocetta-del-montello_26025.osm"
+    },
+    {
+      "slug": "farra-di-soligo",
+      "name": "Farra Di Soligo",
+      "code": "26026",
+      "file": "farra-di-soligo_26026.osm"
+    },
+    {
+      "slug": "follina",
+      "name": "Follina",
+      "code": "26027",
+      "file": "follina_26027.osm"
+    },
+    {
+      "slug": "fontanelle",
+      "name": "Fontanelle",
+      "code": "26028",
+      "file": "fontanelle_26028.osm"
+    },
+    {
+      "slug": "fonte",
+      "name": "Fonte",
+      "code": "26029",
+      "file": "fonte_26029.osm"
+    },
+    {
+      "slug": "fregona",
+      "name": "Fregona",
+      "code": "26030",
+      "file": "fregona_26030.osm"
+    },
+    {
+      "slug": "gaiarine",
+      "name": "Gaiarine",
+      "code": "26031",
+      "file": "gaiarine_26031.osm"
+    },
+    {
+      "slug": "giavera-del-montello",
+      "name": "Giavera Del Montello",
+      "code": "26032",
+      "file": "giavera-del-montello_26032.osm"
+    },
+    {
+      "slug": "godega-di-santurbano",
+      "name": "Godega Di Santurbano",
+      "code": "26033",
+      "file": "godega-di-santurbano_26033.osm"
+    },
+    {
+      "slug": "gorgo-al-monticano",
+      "name": "Gorgo Al Monticano",
+      "code": "26034",
+      "file": "gorgo-al-monticano_26034.osm"
+    },
+    {
+      "slug": "istrana",
+      "name": "Istrana",
+      "code": "26035",
+      "file": "istrana_26035.osm"
+    },
+    {
+      "slug": "loria",
+      "name": "Loria",
+      "code": "26036",
+      "file": "loria_26036.osm"
+    },
+    {
+      "slug": "mansue",
+      "name": "Mansue",
+      "code": "26037",
+      "file": "mansue_26037.osm"
+    },
+    {
+      "slug": "mareno-di-piave",
+      "name": "Mareno Di Piave",
+      "code": "26038",
+      "file": "mareno-di-piave_26038.osm"
+    },
+    {
+      "slug": "maser",
+      "name": "Maser",
+      "code": "26039",
+      "file": "maser_26039.osm"
+    },
+    {
+      "slug": "maserada-sul-piave",
+      "name": "Maserada Sul Piave",
+      "code": "26040",
+      "file": "maserada-sul-piave_26040.osm"
+    },
+    {
+      "slug": "meduna-di-livenza",
+      "name": "Meduna Di Livenza",
+      "code": "26041",
+      "file": "meduna-di-livenza_26041.osm"
+    },
+    {
+      "slug": "miane",
+      "name": "Miane",
+      "code": "26042",
+      "file": "miane_26042.osm"
+    },
+    {
+      "slug": "mogliano-veneto",
+      "name": "Mogliano Veneto",
+      "code": "26043",
+      "file": "mogliano-veneto_26043.osm"
+    },
+    {
+      "slug": "monastier-di-treviso",
+      "name": "Monastier Di Treviso",
+      "code": "26044",
+      "file": "monastier-di-treviso_26044.osm"
+    },
+    {
+      "slug": "monfumo",
+      "name": "Monfumo",
+      "code": "26045",
+      "file": "monfumo_26045.osm"
+    },
+    {
+      "slug": "montebelluna",
+      "name": "Montebelluna",
+      "code": "26046",
+      "file": "montebelluna_26046.osm"
+    },
+    {
+      "slug": "morgano",
+      "name": "Morgano",
+      "code": "26047",
+      "file": "morgano_26047.osm"
+    },
+    {
+      "slug": "moriago-della-battaglia",
+      "name": "Moriago Della Battaglia",
+      "code": "26048",
+      "file": "moriago-della-battaglia_26048.osm"
+    },
+    {
+      "slug": "motta-di-livenza",
+      "name": "Motta Di Livenza",
+      "code": "26049",
+      "file": "motta-di-livenza_26049.osm"
+    },
+    {
+      "slug": "nervesa-della-battaglia",
+      "name": "Nervesa Della Battaglia",
+      "code": "26050",
+      "file": "nervesa-della-battaglia_26050.osm"
+    },
+    {
+      "slug": "oderzo",
+      "name": "Oderzo",
+      "code": "26051",
+      "file": "oderzo_26051.osm"
+    },
+    {
+      "slug": "ormelle",
+      "name": "Ormelle",
+      "code": "26052",
+      "file": "ormelle_26052.osm"
+    },
+    {
+      "slug": "orsago",
+      "name": "Orsago",
+      "code": "26053",
+      "file": "orsago_26053.osm"
+    },
+    {
+      "slug": "paese",
+      "name": "Paese",
+      "code": "26055",
+      "file": "paese_26055.osm"
+    },
+    {
+      "slug": "pederobba",
+      "name": "Pederobba",
+      "code": "26056",
+      "file": "pederobba_26056.osm"
+    },
+    {
+      "slug": "pieve-del-grappa",
+      "name": "Pieve Del Grappa",
+      "code": "26096",
+      "file": "pieve-del-grappa_26096.osm"
+    },
+    {
+      "slug": "pieve-di-soligo",
+      "name": "Pieve Di Soligo",
+      "code": "26057",
+      "file": "pieve-di-soligo_26057.osm"
+    },
+    {
+      "slug": "ponte-di-piave",
+      "name": "Ponte Di Piave",
+      "code": "26058",
+      "file": "ponte-di-piave_26058.osm"
+    },
+    {
+      "slug": "ponzano-veneto",
+      "name": "Ponzano Veneto",
+      "code": "26059",
+      "file": "ponzano-veneto_26059.osm"
+    },
+    {
+      "slug": "portobuffole",
+      "name": "Portobuffole",
+      "code": "26060",
+      "file": "portobuffole_26060.osm"
+    },
+    {
+      "slug": "possagno",
+      "name": "Possagno",
+      "code": "26061",
+      "file": "possagno_26061.osm"
+    },
+    {
+      "slug": "povegliano",
+      "name": "Povegliano",
+      "code": "26062",
+      "file": "povegliano_26062.osm"
+    },
+    {
+      "slug": "preganziol",
+      "name": "Preganziol",
+      "code": "26063",
+      "file": "preganziol_26063.osm"
+    },
+    {
+      "slug": "quinto-di-treviso",
+      "name": "Quinto Di Treviso",
+      "code": "26064",
+      "file": "quinto-di-treviso_26064.osm"
+    },
+    {
+      "slug": "refrontolo",
+      "name": "Refrontolo",
+      "code": "26065",
+      "file": "refrontolo_26065.osm"
+    },
+    {
+      "slug": "resana",
+      "name": "Resana",
+      "code": "26066",
+      "file": "resana_26066.osm"
+    },
+    {
+      "slug": "revine-lago",
+      "name": "Revine Lago",
+      "code": "26067",
+      "file": "revine-lago_26067.osm"
+    },
+    {
+      "slug": "riese-pio-x",
+      "name": "Riese Pio X",
+      "code": "26068",
+      "file": "riese-pio-x_26068.osm"
+    },
+    {
+      "slug": "roncade",
+      "name": "Roncade",
+      "code": "26069",
+      "file": "roncade_26069.osm"
+    },
+    {
+      "slug": "salgareda",
+      "name": "Salgareda",
+      "code": "26070",
+      "file": "salgareda_26070.osm"
+    },
+    {
+      "slug": "san-biagio-di-callalta",
+      "name": "San Biagio Di Callalta",
+      "code": "26071",
+      "file": "san-biagio-di-callalta_26071.osm"
+    },
+    {
+      "slug": "san-fior",
+      "name": "San Fior",
+      "code": "26072",
+      "file": "san-fior_26072.osm"
+    },
+    {
+      "slug": "san-pietro-di-feletto",
+      "name": "San Pietro Di Feletto",
+      "code": "26073",
+      "file": "san-pietro-di-feletto_26073.osm"
+    },
+    {
+      "slug": "san-polo-di-piave",
+      "name": "San Polo Di Piave",
+      "code": "26074",
+      "file": "san-polo-di-piave_26074.osm"
+    },
+    {
+      "slug": "san-vendemiano",
+      "name": "San Vendemiano",
+      "code": "26076",
+      "file": "san-vendemiano_26076.osm"
+    },
+    {
+      "slug": "san-zenone-degli-ezzelini",
+      "name": "San Zenone Degli Ezzelini",
+      "code": "26077",
+      "file": "san-zenone-degli-ezzelini_26077.osm"
+    },
+    {
+      "slug": "santa-lucia-di-piave",
+      "name": "Santa Lucia Di Piave",
+      "code": "26075",
+      "file": "santa-lucia-di-piave_26075.osm"
+    },
+    {
+      "slug": "sarmede",
+      "name": "Sarmede",
+      "code": "26078",
+      "file": "sarmede_26078.osm"
+    },
+    {
+      "slug": "segusino",
+      "name": "Segusino",
+      "code": "26079",
+      "file": "segusino_26079.osm"
+    },
+    {
+      "slug": "sernaglia-della-battaglia",
+      "name": "Sernaglia Della Battaglia",
+      "code": "26080",
+      "file": "sernaglia-della-battaglia_26080.osm"
+    },
+    {
+      "slug": "silea",
+      "name": "Silea",
+      "code": "26081",
+      "file": "silea_26081.osm"
+    },
+    {
+      "slug": "spresiano",
+      "name": "Spresiano",
+      "code": "26082",
+      "file": "spresiano_26082.osm"
+    },
+    {
+      "slug": "susegana",
+      "name": "Susegana",
+      "code": "26083",
+      "file": "susegana_26083.osm"
+    },
+    {
+      "slug": "tarzo",
+      "name": "Tarzo",
+      "code": "26084",
+      "file": "tarzo_26084.osm"
+    },
+    {
+      "slug": "trevignano",
+      "name": "Trevignano",
+      "code": "26085",
+      "file": "trevignano_26085.osm"
+    },
+    {
+      "slug": "treviso",
+      "name": "Treviso",
+      "code": "26086",
+      "file": "treviso_26086.osm"
+    },
+    {
+      "slug": "valdobbiadene",
+      "name": "Valdobbiadene",
+      "code": "26087",
+      "file": "valdobbiadene_26087.osm"
+    },
+    {
+      "slug": "vazzola",
+      "name": "Vazzola",
+      "code": "26088",
+      "file": "vazzola_26088.osm"
+    },
+    {
+      "slug": "vedelago",
+      "name": "Vedelago",
+      "code": "26089",
+      "file": "vedelago_26089.osm"
+    },
+    {
+      "slug": "vidor",
+      "name": "Vidor",
+      "code": "26090",
+      "file": "vidor_26090.osm"
+    },
+    {
+      "slug": "villorba",
+      "name": "Villorba",
+      "code": "26091",
+      "file": "villorba_26091.osm"
+    },
+    {
+      "slug": "vittorio-veneto",
+      "name": "Vittorio Veneto",
+      "code": "26092",
+      "file": "vittorio-veneto_26092.osm"
+    },
+    {
+      "slug": "volpago-del-montello",
+      "name": "Volpago Del Montello",
+      "code": "26093",
+      "file": "volpago-del-montello_26093.osm"
+    },
+    {
+      "slug": "zenson-di-piave",
+      "name": "Zenson Di Piave",
+      "code": "26094",
+      "file": "zenson-di-piave_26094.osm"
+    },
+    {
+      "slug": "zero-branco",
+      "name": "Zero Branco",
+      "code": "26095",
+      "file": "zero-branco_26095.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:47:24Z",
+    "region_imported_at": "2026-03-09T11:37:48Z",
+    "region_latest_osm_mtime": "2026-03-09T11:37:48Z",
+    "osm_imported_at": "2026-03-10T17:47:24Z",
+    "osm_source_pbf_path": "data/italy-nord-est.osm.pbf",
+    "osm_source_pbf_mtime": "2026-03-09T14:19:56Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

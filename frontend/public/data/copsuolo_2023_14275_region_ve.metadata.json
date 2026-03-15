@@ -1,0 +1,386 @@
+{
+  "layer_name": "copsuolo",
+  "pmtiles_path": "copsuolo_2023_14275_region_ve.pmtiles",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 44526,
+  "municipality_count": 44,
+  "bounds": [
+    11.9619882,
+    45.055683,
+    13.1015839,
+    45.8547357
+  ],
+  "normalized_path": "copsuolo_2023_14275_region_ve.ndjson",
+  "categories": [
+    {
+      "key": "cemetery",
+      "label": "Cemetery",
+      "count": 138
+    },
+    {
+      "key": "construction",
+      "label": "Construction",
+      "count": 62
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "count": 349
+    },
+    {
+      "key": "farmland",
+      "label": "Farmland",
+      "count": 7811
+    },
+    {
+      "key": "forest",
+      "label": "Forest",
+      "count": 626
+    },
+    {
+      "key": "grass",
+      "label": "Grass",
+      "count": 2478
+    },
+    {
+      "key": "industrial",
+      "label": "Industrial",
+      "count": 2103
+    },
+    {
+      "key": "meadow",
+      "label": "Meadow",
+      "count": 1841
+    },
+    {
+      "key": "orchard",
+      "label": "Orchard",
+      "count": 283
+    },
+    {
+      "key": "other",
+      "label": "Other",
+      "count": 4028
+    },
+    {
+      "key": "park",
+      "label": "Park",
+      "count": 481
+    },
+    {
+      "key": "quarry",
+      "label": "Quarry",
+      "count": 2
+    },
+    {
+      "key": "railway",
+      "label": "Railway",
+      "count": 155
+    },
+    {
+      "key": "religious",
+      "label": "Religious",
+      "count": 160
+    },
+    {
+      "key": "residential",
+      "label": "Residential",
+      "count": 19281
+    },
+    {
+      "key": "retail",
+      "label": "Retail",
+      "count": 149
+    },
+    {
+      "key": "sports_centre",
+      "label": "Sports Centre",
+      "count": 307
+    },
+    {
+      "key": "vineyard",
+      "label": "Vineyard",
+      "count": 2913
+    },
+    {
+      "key": "water",
+      "label": "Water",
+      "count": 1359
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "annone-veneto",
+      "name": "Annone Veneto",
+      "code": "27001",
+      "file": "annone-veneto_27001.osm"
+    },
+    {
+      "slug": "campagna-lupia",
+      "name": "Campagna Lupia",
+      "code": "27002",
+      "file": "campagna-lupia_27002.osm"
+    },
+    {
+      "slug": "campolongo-maggiore",
+      "name": "Campolongo Maggiore",
+      "code": "27003",
+      "file": "campolongo-maggiore_27003.osm"
+    },
+    {
+      "slug": "camponogara",
+      "name": "Camponogara",
+      "code": "27004",
+      "file": "camponogara_27004.osm"
+    },
+    {
+      "slug": "caorle",
+      "name": "Caorle",
+      "code": "27005",
+      "file": "caorle_27005.osm"
+    },
+    {
+      "slug": "cavallino-treporti",
+      "name": "Cavallino Treporti",
+      "code": "27044",
+      "file": "cavallino-treporti_27044.osm"
+    },
+    {
+      "slug": "cavarzere",
+      "name": "Cavarzere",
+      "code": "27006",
+      "file": "cavarzere_27006.osm"
+    },
+    {
+      "slug": "ceggia",
+      "name": "Ceggia",
+      "code": "27007",
+      "file": "ceggia_27007.osm"
+    },
+    {
+      "slug": "chioggia",
+      "name": "Chioggia",
+      "code": "27008",
+      "file": "chioggia_27008.osm"
+    },
+    {
+      "slug": "cinto-caomaggiore",
+      "name": "Cinto Caomaggiore",
+      "code": "27009",
+      "file": "cinto-caomaggiore_27009.osm"
+    },
+    {
+      "slug": "cona",
+      "name": "Cona",
+      "code": "27010",
+      "file": "cona_27010.osm"
+    },
+    {
+      "slug": "concordia-sagittaria",
+      "name": "Concordia Sagittaria",
+      "code": "27011",
+      "file": "concordia-sagittaria_27011.osm"
+    },
+    {
+      "slug": "dolo",
+      "name": "Dolo",
+      "code": "27012",
+      "file": "dolo_27012.osm"
+    },
+    {
+      "slug": "eraclea",
+      "name": "Eraclea",
+      "code": "27013",
+      "file": "eraclea_27013.osm"
+    },
+    {
+      "slug": "fiesso-dartico",
+      "name": "Fiesso Dartico",
+      "code": "27014",
+      "file": "fiesso-dartico_27014.osm"
+    },
+    {
+      "slug": "fossalta-di-piave",
+      "name": "Fossalta Di Piave",
+      "code": "27015",
+      "file": "fossalta-di-piave_27015.osm"
+    },
+    {
+      "slug": "fossalta-di-portogruaro",
+      "name": "Fossalta Di Portogruaro",
+      "code": "27016",
+      "file": "fossalta-di-portogruaro_27016.osm"
+    },
+    {
+      "slug": "fosso",
+      "name": "Fosso",
+      "code": "27017",
+      "file": "fosso_27017.osm"
+    },
+    {
+      "slug": "gruaro",
+      "name": "Gruaro",
+      "code": "27018",
+      "file": "gruaro_27018.osm"
+    },
+    {
+      "slug": "jesolo",
+      "name": "Jesolo",
+      "code": "27019",
+      "file": "jesolo_27019.osm"
+    },
+    {
+      "slug": "marcon",
+      "name": "Marcon",
+      "code": "27020",
+      "file": "marcon_27020.osm"
+    },
+    {
+      "slug": "martellago",
+      "name": "Martellago",
+      "code": "27021",
+      "file": "martellago_27021.osm"
+    },
+    {
+      "slug": "meolo",
+      "name": "Meolo",
+      "code": "27022",
+      "file": "meolo_27022.osm"
+    },
+    {
+      "slug": "mira",
+      "name": "Mira",
+      "code": "27023",
+      "file": "mira_27023.osm"
+    },
+    {
+      "slug": "mirano",
+      "name": "Mirano",
+      "code": "27024",
+      "file": "mirano_27024.osm"
+    },
+    {
+      "slug": "musile-di-piave",
+      "name": "Musile Di Piave",
+      "code": "27025",
+      "file": "musile-di-piave_27025.osm"
+    },
+    {
+      "slug": "noale",
+      "name": "Noale",
+      "code": "27026",
+      "file": "noale_27026.osm"
+    },
+    {
+      "slug": "noventa-di-piave",
+      "name": "Noventa Di Piave",
+      "code": "27027",
+      "file": "noventa-di-piave_27027.osm"
+    },
+    {
+      "slug": "pianiga",
+      "name": "Pianiga",
+      "code": "27028",
+      "file": "pianiga_27028.osm"
+    },
+    {
+      "slug": "portogruaro",
+      "name": "Portogruaro",
+      "code": "27029",
+      "file": "portogruaro_27029.osm"
+    },
+    {
+      "slug": "pramaggiore",
+      "name": "Pramaggiore",
+      "code": "27030",
+      "file": "pramaggiore_27030.osm"
+    },
+    {
+      "slug": "quarto-daltino",
+      "name": "Quarto Daltino",
+      "code": "27031",
+      "file": "quarto-daltino_27031.osm"
+    },
+    {
+      "slug": "salzano",
+      "name": "Salzano",
+      "code": "27032",
+      "file": "salzano_27032.osm"
+    },
+    {
+      "slug": "san-dona-di-piave",
+      "name": "San Dona Di Piave",
+      "code": "27033",
+      "file": "san-dona-di-piave_27033.osm"
+    },
+    {
+      "slug": "san-michele-al-tagliamento",
+      "name": "San Michele Al Tagliamento",
+      "code": "27034",
+      "file": "san-michele-al-tagliamento_27034.osm"
+    },
+    {
+      "slug": "san-stino-di-livenza",
+      "name": "San Stino Di Livenza",
+      "code": "27036",
+      "file": "san-stino-di-livenza_27036.osm"
+    },
+    {
+      "slug": "santa-maria-di-sala",
+      "name": "Santa Maria Di Sala",
+      "code": "27035",
+      "file": "santa-maria-di-sala_27035.osm"
+    },
+    {
+      "slug": "scorze",
+      "name": "Scorze",
+      "code": "27037",
+      "file": "scorze_27037.osm"
+    },
+    {
+      "slug": "spinea",
+      "name": "Spinea",
+      "code": "27038",
+      "file": "spinea_27038.osm"
+    },
+    {
+      "slug": "stra",
+      "name": "Stra",
+      "code": "27039",
+      "file": "stra_27039.osm"
+    },
+    {
+      "slug": "teglio-veneto",
+      "name": "Teglio Veneto",
+      "code": "27040",
+      "file": "teglio-veneto_27040.osm"
+    },
+    {
+      "slug": "torre-di-mosto",
+      "name": "Torre Di Mosto",
+      "code": "27041",
+      "file": "torre-di-mosto_27041.osm"
+    },
+    {
+      "slug": "venezia",
+      "name": "Venezia",
+      "code": "27042",
+      "file": "venezia_27042.osm"
+    },
+    {
+      "slug": "vigonovo",
+      "name": "Vigonovo",
+      "code": "27043",
+      "file": "vigonovo_27043.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:42:39Z",
+    "region_imported_at": "2026-03-09T11:37:50Z",
+    "region_latest_osm_mtime": "2026-03-09T11:37:50Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

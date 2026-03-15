@@ -1,0 +1,756 @@
+{
+  "layer_name": "osm",
+  "pmtiles_path": "copsuolo_2023_14275_osm_pd.pmtiles",
+  "source_pbf": "italy-nord-est.osm.pbf",
+  "min_zoom": 7,
+  "max_zoom": 13,
+  "feature_count": 63810,
+  "bounds": [
+    11.3371109,
+    45.0433792,
+    12.5394003,
+    45.820825
+  ],
+  "normalized_path": "copsuolo_2023_14275_osm_pd.ndjson",
+  "categories": [
+    {
+      "key": "residential",
+      "label": "Residenziale",
+      "count": 9528
+    },
+    {
+      "key": "industrial",
+      "label": "Industriale",
+      "count": 2121
+    },
+    {
+      "key": "farmland",
+      "label": "Agricolo",
+      "count": 21338
+    },
+    {
+      "key": "forest",
+      "label": "Bosco",
+      "count": 2487
+    },
+    {
+      "key": "vineyard",
+      "label": "Vigneto",
+      "count": 8162
+    },
+    {
+      "key": "orchard",
+      "label": "Frutteto",
+      "count": 1609
+    },
+    {
+      "key": "grass",
+      "label": "Erboso",
+      "count": 4167
+    },
+    {
+      "key": "meadow",
+      "label": "Prato",
+      "count": 4761
+    },
+    {
+      "key": "water",
+      "label": "Acqua",
+      "count": 1984
+    },
+    {
+      "key": "wetland",
+      "label": "Zona umida",
+      "count": 127
+    },
+    {
+      "key": "park",
+      "label": "Parco",
+      "count": 1909
+    },
+    {
+      "key": "sports_centre",
+      "label": "Centro sportivo",
+      "count": 767
+    },
+    {
+      "key": "cemetery",
+      "label": "Cimitero",
+      "count": 492
+    },
+    {
+      "key": "education",
+      "label": "Istruzione",
+      "count": 1142
+    },
+    {
+      "key": "healthcare",
+      "label": "Sanita'",
+      "count": 49
+    },
+    {
+      "key": "power",
+      "label": "Energia",
+      "count": 891
+    },
+    {
+      "key": "aeroway",
+      "label": "Aeronautico",
+      "count": 68
+    },
+    {
+      "key": "construction",
+      "label": "Cantiere",
+      "count": 300
+    },
+    {
+      "key": "religious",
+      "label": "Religioso",
+      "count": 1195
+    },
+    {
+      "key": "retail",
+      "label": "Commerciale",
+      "count": 129
+    },
+    {
+      "key": "railway",
+      "label": "Ferrovia",
+      "count": 79
+    },
+    {
+      "key": "quarry",
+      "label": "Cava",
+      "count": 69
+    },
+    {
+      "key": "landfill",
+      "label": "Discarica",
+      "count": 25
+    },
+    {
+      "key": "other",
+      "label": "Altro",
+      "count": 411
+    }
+  ],
+  "municipalities": [
+    {
+      "slug": "abano-terme",
+      "name": "Abano Terme",
+      "code": "28001",
+      "file": "abano-terme_28001.osm"
+    },
+    {
+      "slug": "agna",
+      "name": "Agna",
+      "code": "28002",
+      "file": "agna_28002.osm"
+    },
+    {
+      "slug": "albignasego",
+      "name": "Albignasego",
+      "code": "28003",
+      "file": "albignasego_28003.osm"
+    },
+    {
+      "slug": "anguillara-veneta",
+      "name": "Anguillara Veneta",
+      "code": "28004",
+      "file": "anguillara-veneta_28004.osm"
+    },
+    {
+      "slug": "arqua-petrarca",
+      "name": "Arqua Petrarca",
+      "code": "28005",
+      "file": "arqua-petrarca_28005.osm"
+    },
+    {
+      "slug": "arre",
+      "name": "Arre",
+      "code": "28006",
+      "file": "arre_28006.osm"
+    },
+    {
+      "slug": "arzergrande",
+      "name": "Arzergrande",
+      "code": "28007",
+      "file": "arzergrande_28007.osm"
+    },
+    {
+      "slug": "bagnoli-di-sopra",
+      "name": "Bagnoli Di Sopra",
+      "code": "28008",
+      "file": "bagnoli-di-sopra_28008.osm"
+    },
+    {
+      "slug": "baone",
+      "name": "Baone",
+      "code": "28009",
+      "file": "baone_28009.osm"
+    },
+    {
+      "slug": "barbona",
+      "name": "Barbona",
+      "code": "28010",
+      "file": "barbona_28010.osm"
+    },
+    {
+      "slug": "battaglia-terme",
+      "name": "Battaglia Terme",
+      "code": "28011",
+      "file": "battaglia-terme_28011.osm"
+    },
+    {
+      "slug": "boara-pisani",
+      "name": "Boara Pisani",
+      "code": "28012",
+      "file": "boara-pisani_28012.osm"
+    },
+    {
+      "slug": "borgo-veneto",
+      "name": "Borgo Veneto",
+      "code": "28107",
+      "file": "borgo-veneto_28107.osm"
+    },
+    {
+      "slug": "borgoricco",
+      "name": "Borgoricco",
+      "code": "28013",
+      "file": "borgoricco_28013.osm"
+    },
+    {
+      "slug": "bovolenta",
+      "name": "Bovolenta",
+      "code": "28014",
+      "file": "bovolenta_28014.osm"
+    },
+    {
+      "slug": "brugine",
+      "name": "Brugine",
+      "code": "28015",
+      "file": "brugine_28015.osm"
+    },
+    {
+      "slug": "cadoneghe",
+      "name": "Cadoneghe",
+      "code": "28016",
+      "file": "cadoneghe_28016.osm"
+    },
+    {
+      "slug": "campo-san-martino",
+      "name": "Campo San Martino",
+      "code": "28020",
+      "file": "campo-san-martino_28020.osm"
+    },
+    {
+      "slug": "campodarsego",
+      "name": "Campodarsego",
+      "code": "28017",
+      "file": "campodarsego_28017.osm"
+    },
+    {
+      "slug": "campodoro",
+      "name": "Campodoro",
+      "code": "28018",
+      "file": "campodoro_28018.osm"
+    },
+    {
+      "slug": "camposampiero",
+      "name": "Camposampiero",
+      "code": "28019",
+      "file": "camposampiero_28019.osm"
+    },
+    {
+      "slug": "candiana",
+      "name": "Candiana",
+      "code": "28021",
+      "file": "candiana_28021.osm"
+    },
+    {
+      "slug": "carmignano-di-brenta",
+      "name": "Carmignano Di Brenta",
+      "code": "28023",
+      "file": "carmignano-di-brenta_28023.osm"
+    },
+    {
+      "slug": "cartura",
+      "name": "Cartura",
+      "code": "28026",
+      "file": "cartura_28026.osm"
+    },
+    {
+      "slug": "casale-di-scodosia",
+      "name": "Casale Di Scodosia",
+      "code": "28027",
+      "file": "casale-di-scodosia_28027.osm"
+    },
+    {
+      "slug": "casalserugo",
+      "name": "Casalserugo",
+      "code": "28028",
+      "file": "casalserugo_28028.osm"
+    },
+    {
+      "slug": "castelbaldo",
+      "name": "Castelbaldo",
+      "code": "28029",
+      "file": "castelbaldo_28029.osm"
+    },
+    {
+      "slug": "cervarese-santa-croce",
+      "name": "Cervarese Santa Croce",
+      "code": "28030",
+      "file": "cervarese-santa-croce_28030.osm"
+    },
+    {
+      "slug": "cinto-euganeo",
+      "name": "Cinto Euganeo",
+      "code": "28031",
+      "file": "cinto-euganeo_28031.osm"
+    },
+    {
+      "slug": "cittadella",
+      "name": "Cittadella",
+      "code": "28032",
+      "file": "cittadella_28032.osm"
+    },
+    {
+      "slug": "codevigo",
+      "name": "Codevigo",
+      "code": "28033",
+      "file": "codevigo_28033.osm"
+    },
+    {
+      "slug": "conselve",
+      "name": "Conselve",
+      "code": "28034",
+      "file": "conselve_28034.osm"
+    },
+    {
+      "slug": "correzzola",
+      "name": "Correzzola",
+      "code": "28035",
+      "file": "correzzola_28035.osm"
+    },
+    {
+      "slug": "curtarolo",
+      "name": "Curtarolo",
+      "code": "28036",
+      "file": "curtarolo_28036.osm"
+    },
+    {
+      "slug": "due-carrare",
+      "name": "Due Carrare",
+      "code": "28106",
+      "file": "due-carrare_28106.osm"
+    },
+    {
+      "slug": "este",
+      "name": "Este",
+      "code": "28037",
+      "file": "este_28037.osm"
+    },
+    {
+      "slug": "fontaniva",
+      "name": "Fontaniva",
+      "code": "28038",
+      "file": "fontaniva_28038.osm"
+    },
+    {
+      "slug": "galliera-veneta",
+      "name": "Galliera Veneta",
+      "code": "28039",
+      "file": "galliera-veneta_28039.osm"
+    },
+    {
+      "slug": "galzignano-terme",
+      "name": "Galzignano Terme",
+      "code": "28040",
+      "file": "galzignano-terme_28040.osm"
+    },
+    {
+      "slug": "gazzo",
+      "name": "Gazzo",
+      "code": "28041",
+      "file": "gazzo_28041.osm"
+    },
+    {
+      "slug": "grantorto",
+      "name": "Grantorto",
+      "code": "28042",
+      "file": "grantorto_28042.osm"
+    },
+    {
+      "slug": "granze",
+      "name": "Granze",
+      "code": "28043",
+      "file": "granze_28043.osm"
+    },
+    {
+      "slug": "legnaro",
+      "name": "Legnaro",
+      "code": "28044",
+      "file": "legnaro_28044.osm"
+    },
+    {
+      "slug": "limena",
+      "name": "Limena",
+      "code": "28045",
+      "file": "limena_28045.osm"
+    },
+    {
+      "slug": "loreggia",
+      "name": "Loreggia",
+      "code": "28046",
+      "file": "loreggia_28046.osm"
+    },
+    {
+      "slug": "lozzo-atestino",
+      "name": "Lozzo Atestino",
+      "code": "28047",
+      "file": "lozzo-atestino_28047.osm"
+    },
+    {
+      "slug": "masera-di-padova",
+      "name": "Masera Di Padova",
+      "code": "28048",
+      "file": "masera-di-padova_28048.osm"
+    },
+    {
+      "slug": "masi",
+      "name": "Masi",
+      "code": "28049",
+      "file": "masi_28049.osm"
+    },
+    {
+      "slug": "massanzago",
+      "name": "Massanzago",
+      "code": "28050",
+      "file": "massanzago_28050.osm"
+    },
+    {
+      "slug": "megliadino-san-vitale",
+      "name": "Megliadino San Vitale",
+      "code": "28052",
+      "file": "megliadino-san-vitale_28052.osm"
+    },
+    {
+      "slug": "merlara",
+      "name": "Merlara",
+      "code": "28053",
+      "file": "merlara_28053.osm"
+    },
+    {
+      "slug": "mestrino",
+      "name": "Mestrino",
+      "code": "28054",
+      "file": "mestrino_28054.osm"
+    },
+    {
+      "slug": "monselice",
+      "name": "Monselice",
+      "code": "28055",
+      "file": "monselice_28055.osm"
+    },
+    {
+      "slug": "montagnana",
+      "name": "Montagnana",
+      "code": "28056",
+      "file": "montagnana_28056.osm"
+    },
+    {
+      "slug": "montegrotto-terme",
+      "name": "Montegrotto Terme",
+      "code": "28057",
+      "file": "montegrotto-terme_28057.osm"
+    },
+    {
+      "slug": "noventa-padovana",
+      "name": "Noventa Padovana",
+      "code": "28058",
+      "file": "noventa-padovana_28058.osm"
+    },
+    {
+      "slug": "ospedaletto-euganeo",
+      "name": "Ospedaletto Euganeo",
+      "code": "28059",
+      "file": "ospedaletto-euganeo_28059.osm"
+    },
+    {
+      "slug": "padova",
+      "name": "Padova",
+      "code": "28060",
+      "file": "padova_28060.osm"
+    },
+    {
+      "slug": "pernumia",
+      "name": "Pernumia",
+      "code": "28061",
+      "file": "pernumia_28061.osm"
+    },
+    {
+      "slug": "piacenza-dadige",
+      "name": "Piacenza Dadige",
+      "code": "28062",
+      "file": "piacenza-dadige_28062.osm"
+    },
+    {
+      "slug": "piazzola-sul-brenta",
+      "name": "Piazzola Sul Brenta",
+      "code": "28063",
+      "file": "piazzola-sul-brenta_28063.osm"
+    },
+    {
+      "slug": "piombino-dese",
+      "name": "Piombino Dese",
+      "code": "28064",
+      "file": "piombino-dese_28064.osm"
+    },
+    {
+      "slug": "piove-di-sacco",
+      "name": "Piove Di Sacco",
+      "code": "28065",
+      "file": "piove-di-sacco_28065.osm"
+    },
+    {
+      "slug": "polverara",
+      "name": "Polverara",
+      "code": "28066",
+      "file": "polverara_28066.osm"
+    },
+    {
+      "slug": "ponso",
+      "name": "Ponso",
+      "code": "28067",
+      "file": "ponso_28067.osm"
+    },
+    {
+      "slug": "ponte-san-nicolo",
+      "name": "Ponte San Nicolo",
+      "code": "28069",
+      "file": "ponte-san-nicolo_28069.osm"
+    },
+    {
+      "slug": "pontelongo",
+      "name": "Pontelongo",
+      "code": "28068",
+      "file": "pontelongo_28068.osm"
+    },
+    {
+      "slug": "pozzonovo",
+      "name": "Pozzonovo",
+      "code": "28070",
+      "file": "pozzonovo_28070.osm"
+    },
+    {
+      "slug": "rovolon",
+      "name": "Rovolon",
+      "code": "28071",
+      "file": "rovolon_28071.osm"
+    },
+    {
+      "slug": "rubano",
+      "name": "Rubano",
+      "code": "28072",
+      "file": "rubano_28072.osm"
+    },
+    {
+      "slug": "saccolongo",
+      "name": "Saccolongo",
+      "code": "28073",
+      "file": "saccolongo_28073.osm"
+    },
+    {
+      "slug": "san-giorgio-delle-pertiche",
+      "name": "San Giorgio Delle Pertiche",
+      "code": "28075",
+      "file": "san-giorgio-delle-pertiche_28075.osm"
+    },
+    {
+      "slug": "san-giorgio-in-bosco",
+      "name": "San Giorgio In Bosco",
+      "code": "28076",
+      "file": "san-giorgio-in-bosco_28076.osm"
+    },
+    {
+      "slug": "san-martino-di-lupari",
+      "name": "San Martino Di Lupari",
+      "code": "28077",
+      "file": "san-martino-di-lupari_28077.osm"
+    },
+    {
+      "slug": "san-pietro-in-gu",
+      "name": "San Pietro In Gu",
+      "code": "28078",
+      "file": "san-pietro-in-gu_28078.osm"
+    },
+    {
+      "slug": "san-pietro-viminario",
+      "name": "San Pietro Viminario",
+      "code": "28079",
+      "file": "san-pietro-viminario_28079.osm"
+    },
+    {
+      "slug": "santa-caterina-deste",
+      "name": "Santa Caterina Deste",
+      "code": "28108",
+      "file": "santa-caterina-deste_28108.osm"
+    },
+    {
+      "slug": "santa-giustina-in-colle",
+      "name": "Santa Giustina In Colle",
+      "code": "28080",
+      "file": "santa-giustina-in-colle_28080.osm"
+    },
+    {
+      "slug": "santangelo-di-piove-di-sacco",
+      "name": "Santangelo Di Piove Di Sacco",
+      "code": "28082",
+      "file": "santangelo-di-piove-di-sacco_28082.osm"
+    },
+    {
+      "slug": "santelena",
+      "name": "Santelena",
+      "code": "28083",
+      "file": "santelena_28083.osm"
+    },
+    {
+      "slug": "santurbano",
+      "name": "Santurbano",
+      "code": "28084",
+      "file": "santurbano_28084.osm"
+    },
+    {
+      "slug": "saonara",
+      "name": "Saonara",
+      "code": "28085",
+      "file": "saonara_28085.osm"
+    },
+    {
+      "slug": "selvazzano-dentro",
+      "name": "Selvazzano Dentro",
+      "code": "28086",
+      "file": "selvazzano-dentro_28086.osm"
+    },
+    {
+      "slug": "solesino",
+      "name": "Solesino",
+      "code": "28087",
+      "file": "solesino_28087.osm"
+    },
+    {
+      "slug": "stanghella",
+      "name": "Stanghella",
+      "code": "28088",
+      "file": "stanghella_28088.osm"
+    },
+    {
+      "slug": "teolo",
+      "name": "Teolo",
+      "code": "28089",
+      "file": "teolo_28089.osm"
+    },
+    {
+      "slug": "terrassa-padovana",
+      "name": "Terrassa Padovana",
+      "code": "28090",
+      "file": "terrassa-padovana_28090.osm"
+    },
+    {
+      "slug": "tombolo",
+      "name": "Tombolo",
+      "code": "28091",
+      "file": "tombolo_28091.osm"
+    },
+    {
+      "slug": "torreglia",
+      "name": "Torreglia",
+      "code": "28092",
+      "file": "torreglia_28092.osm"
+    },
+    {
+      "slug": "trebaseleghe",
+      "name": "Trebaseleghe",
+      "code": "28093",
+      "file": "trebaseleghe_28093.osm"
+    },
+    {
+      "slug": "tribano",
+      "name": "Tribano",
+      "code": "28094",
+      "file": "tribano_28094.osm"
+    },
+    {
+      "slug": "urbana",
+      "name": "Urbana",
+      "code": "28095",
+      "file": "urbana_28095.osm"
+    },
+    {
+      "slug": "veggiano",
+      "name": "Veggiano",
+      "code": "28096",
+      "file": "veggiano_28096.osm"
+    },
+    {
+      "slug": "vescovana",
+      "name": "Vescovana",
+      "code": "28097",
+      "file": "vescovana_28097.osm"
+    },
+    {
+      "slug": "vigodarzere",
+      "name": "Vigodarzere",
+      "code": "28099",
+      "file": "vigodarzere_28099.osm"
+    },
+    {
+      "slug": "vigonza",
+      "name": "Vigonza",
+      "code": "28100",
+      "file": "vigonza_28100.osm"
+    },
+    {
+      "slug": "villa-del-conte",
+      "name": "Villa Del Conte",
+      "code": "28101",
+      "file": "villa-del-conte_28101.osm"
+    },
+    {
+      "slug": "villa-estense",
+      "name": "Villa Estense",
+      "code": "28102",
+      "file": "villa-estense_28102.osm"
+    },
+    {
+      "slug": "villafranca-padovana",
+      "name": "Villafranca Padovana",
+      "code": "28103",
+      "file": "villafranca-padovana_28103.osm"
+    },
+    {
+      "slug": "villanova-di-camposampiero",
+      "name": "Villanova Di Camposampiero",
+      "code": "28104",
+      "file": "villanova-di-camposampiero_28104.osm"
+    },
+    {
+      "slug": "vo",
+      "name": "Vo",
+      "code": "28105",
+      "file": "vo_28105.osm"
+    }
+  ],
+  "skipped_files": [],
+  "source_info": {
+    "built_at": "2026-03-10T17:40:58Z",
+    "region_imported_at": "2026-03-09T11:28:58Z",
+    "region_latest_osm_mtime": "2026-03-09T11:28:58Z",
+    "osm_imported_at": "2026-03-10T17:40:58Z",
+    "osm_source_pbf_path": "data/italy-nord-est.osm.pbf",
+    "osm_source_pbf_mtime": "2026-03-09T14:19:56Z",
+    "region_dataset_year": "2023",
+    "region_metadata_publication_date": "2025-07-03"
+  }
+}

@@ -58,7 +58,7 @@ env/
 *.sqlite
 *.sqlite3
 
-data/
+/data/
 
 # Archived locally
 src/archive/
