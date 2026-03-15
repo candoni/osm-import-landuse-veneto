@@ -32,6 +32,9 @@ I file `.osm` pronti all'uso si trovano nella cartella `dist/copsuolo_2023_14275
 organizzati per provincia. Ogni file corrisponde a un comune e contiene le geometrie
 originali della Regione con i tag già convertiti alle convenzioni OSM.
 
+Nel repository pubblico questa cartella viene versionata, così ogni comune può essere
+scaricato direttamente anche da GitHub senza dover rigenerare i dati in locale.
+
 Per usarli:
 
 1. Scegli il comune che ti interessa, ad esempio
@@ -39,6 +42,8 @@ Per usarli:
 2. Aprilo in JOSM 
 3. Sovrapponi i dati esistenti di OSM e procedi con l'importazione seguendo le linee
    guida della comunità
+
+Rispetto il processo originale, sei già al punto 3.10	[JOSM: validazione, correzione errori e semplificazione geometria](https://wiki.openstreetmap.org/wiki/Veneto/Guide_e_documentazione/Import:_dalla_CTRN_Veneto_a_OSM#JOSM:_validazione,_correzione_errori_e_semplificazione_geometria_2)
 
 Le geometrie sono in WGS84 e i tag sono già mappati secondo le convenzioni OSM (vedi
 sotto).
@@ -182,13 +187,16 @@ su GitHub Pages a ogni push su `main`.
 Prerequisiti:
 
 1. I file PMTiles e i metadata JSON devono essere presenti in `frontend/public/data/`
-2. In GitHub, vai in `Settings > Pages` e imposta `Source: GitHub Actions`
+2. Se vuoi rendere scaricabili i file `.osm` per singolo comune dal repository pubblico,
+   anche `dist/` deve essere committata
+3. In GitHub, vai in `Settings > Pages` e imposta `Source: GitHub Actions`
 
 Deploy:
 
 1. Genera o aggiorna i PMTiles con i comandi `poe build-*` sopra
-2. Fai commit anche dei file aggiornati sotto `frontend/public/data/`
-3. Fai push su `main`
+2. Fai commit dei file aggiornati sotto `frontend/public/data/`
+3. Se hai rigenerato i file `.osm`, fai commit anche di `dist/`
+4. Fai push su `main`
 
 Il workflow `.github/workflows/deploy-frontend-gh-pages.yml` esegue:
 
