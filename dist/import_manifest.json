@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-03-09T12:03:08Z",
+  "input_root": "data/copsuolo_2023_14275",
+  "output_root": "dist/copsuolo_2023_14275",
+  "latest_output_mtime": "2026-03-09T12:03:08Z",
+  "provinces": {
+    "BL": {
+      "imported_at": "2026-03-09T12:03:08Z",
+      "latest_output_mtime": "2026-03-09T12:03:08Z",
+      "updated_file_count": 60
+    },
+    "PD": {
+      "imported_at": "2026-03-09T11:28:58Z",
+      "latest_output_mtime": "2026-03-09T11:28:58Z",
+      "updated_file_count": 101
+    },
+    "RO": {
+      "imported_at": "2026-03-09T11:42:17Z",
+      "latest_output_mtime": "2026-03-09T11:42:17Z",
+      "updated_file_count": 50
+    },
+    "TV": {
+      "imported_at": "2026-03-09T11:37:48Z",
+      "latest_output_mtime": "2026-03-09T11:37:48Z",
+      "updated_file_count": 94
+    },
+    "VE": {
+      "imported_at": "2026-03-09T11:37:50Z",
+      "latest_output_mtime": "2026-03-09T11:37:50Z",
+      "updated_file_count": 44
+    },
+    "VI": {
+      "imported_at": "2026-03-09T11:21:06Z",
+      "latest_output_mtime": "2026-03-09T11:21:06Z",
+      "updated_file_count": 113
+    },
+    "VR": {
+      "imported_at": "2026-03-09T11:22:12Z",
+      "latest_output_mtime": "2026-03-09T11:22:12Z",
+      "updated_file_count": 98
+    }
+  }
+}
